@@ -25,6 +25,7 @@
             {
                 "nombreCompleto": "",
                 "testimonio":"",
+                "fecha": "",
                 "imagenPersona":""
             }
         ]
