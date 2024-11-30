@@ -1,0 +1,69 @@
+{
+    "header":{
+        "imagenLogo": ""
+    },
+    "footer":{
+        "imagenLogo": ""
+    },
+    "quienesSomos":{
+        "titulo":"",
+        "quienesSomos":""
+    },
+    "nuestrosServicios":{
+        "titulo": "",
+        "servicios":[
+            {
+                "titulo":"",
+                "descripcion": "",
+                "imagen":""
+            }
+        ]
+    },
+    "testimonios":{
+        "titulo":"",
+        "testimonios":[
+            {
+                "nombreCompleto": "",
+                "testimonio":"",
+                "imagenPersona":""
+            }
+        ]
+    },
+    "nuestroEquipo":{
+        "titulo":"",
+        "equipo":[
+            {
+                "nombreCompleto": "",
+                "tituloPuesto":"",
+                "videoPresentacion":"",
+                "bannerImagen": "",
+                "experiencia":[
+                    {
+                        "tituloOEmpresa": "",
+                        "inicio":"",
+                        "final":"",
+                        "descripcion":"",
+                        "puesto": "",
+                        "imagen":"",
+                        "video":"",
+                        "urlTrabajo":""
+                    }
+                ]
+            }
+        ]
+    },
+    "hero":{
+        "titulo":"",
+        "descripcionDelHero": "",
+        "imagen": ""
+    },
+    "porqueElegirnos":{
+        "titulo":"",
+        "razones":[
+            {
+                "titulo": "",
+                "descripcion": ""
+            }
+        ]
+    }
+}
