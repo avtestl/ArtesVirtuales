@@ -27,19 +27,19 @@ export function WhyChooseUs () {
 
       <div className="space-y-12 flex flex-col items-center gap-6">
         <Reason
-          img={<img src={ReasonOneImg.src} alt="Why Choose Us" width={396} height={190} />}
+          img={<img src={ReasonOneImg.src} alt="Why Choose Us" width={396} height={190} loading="lazy" />}
           title="Experiencia y Profesionalismo"
           body="Contamos con un equipo de expertos en diversas áreas del marketing digital."
         />
 
         <Reason
-          img={<img src={ReasonTwoImg.src} alt="Why Choose Us" width={296} height={232} className="ml-1" />}
+          img={<img src={ReasonTwoImg.src} alt="Why Choose Us" width={296} height={232} className="ml-1" loading="lazy" />}
           title="Resultados Comprobados"
           body="Hemos ayudado a numerosas empresas a alcanzar sus metas y superar sus expectativas."
         />
 
         <Reason 
-          img={<img src={ReasonThreeImg.src} alt="Why Choose Us" width={300} height={250} className="ml-4" />}
+          img={<img src={ReasonThreeImg.src} alt="Why Choose Us" width={300} height={250} className="ml-4" loading="lazy" />}
           title="Enfoque Personalizado"
           body="Cada cliente es único, por lo que ofrecemos soluciones a medida que se adaptan a tus necesidades específicas."
         />
