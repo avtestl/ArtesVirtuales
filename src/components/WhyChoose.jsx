@@ -5,13 +5,13 @@ import ReasonThreeImg from "../assets/Reason3.png"
 function Reason({ img, title, body }){
   return (
       <div className="text-center">
-        <h3 className="text-xl font-medium text-[#2F2E41]">
+        <h3 className="text-xl font-medium text-dark-text">
           {title}
         </h3>
         <div className="my-4 flex items-center justify-center">
           {img}
         </div>
-        <p className="text-lg text-[#2F2E41]">
+        <p className="text-lg text-dark-text">
           {body}
         </p>
     </div>
@@ -21,7 +21,7 @@ function Reason({ img, title, body }){
 export function WhyChooseUs () {
   return (
     <section className="bg-[#D1E0EB] px-6 py-12">
-      <h2 className="mb-16 text-center text-4xl font-semibold text-[#2F2E41]">
+      <h2 className="mb-16 text-center text-4xl font-semibold text-dark-text">
         ¿Porqué Elegirnos?
       </h2>
 

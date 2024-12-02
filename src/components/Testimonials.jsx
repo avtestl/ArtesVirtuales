@@ -8,10 +8,10 @@ export function TestimonialItem({ testimonial }){
             <img src={testimonial.imagenPersona} alt={testimonial.nombreCompleto} width={48} className="aspect-square size-12 rounded-full" />
             <div>
               <p className="text-base font-semibold text-[#01123F]">{testimonial.nombreCompleto}</p>
-              <p className="text-xs font-extralight text-[#2F2E41]">{testimonial.fecha}</p>
+              <p className="text-xs font-extralight text-dark-text">{testimonial.fecha}</p>
             </div>
           </header>
-          <p className="text-xs text-[#2F2E41]">{testimonial.testimonio}</p>
+          <p className="text-xs text-dark-text">{testimonial.testimonio}</p>
         </div>
     </div>
   )
@@ -22,7 +22,7 @@ export default function Testimonials(props){
 
   return (
     <section className="flex flex-col items-center">
-      <h3 className="mb-16 text-center text-4xl font-semibold tracking-wide text-[#2F2E41]">{props.titulo}</h3>
+      <h3 className="mb-16 text-center text-4xl font-semibold tracking-wide text-dark-text">{props.titulo}</h3>
       
       <div className="flex flex-col gap-12">
         {props.testimonios.map(testimonial => (
