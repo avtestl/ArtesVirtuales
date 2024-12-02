@@ -20,6 +20,8 @@ export default [
       "no-var": "error",
       "astro/no-exports-from-components": "error",
       "no-unused-vars": "warn",
+      "react/jsx-uses-vars": "error",
+      "react/jsx-uses-react": "error" 
     }
   }
 ];
