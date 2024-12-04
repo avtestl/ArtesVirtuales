@@ -1,0 +1,35 @@
+---
+import { getImage } from "astro:assets";
+import HeroBackground from "../assets/HeroBackground.jpg"
+
+const HeroBackgroundAvif = await getImage({ src:HeroBackground, format: "avif" });
+const HeroBackgroundWebP = await getImage({ src:HeroBackground, format: "webp" });
+
+const backgroundUrlCSS =  `image-set(
+    url(${HeroBackgroundAvif.src}) type("image/avif"),
+    url(${HeroBackgroundWebP.src}) type("image/webp"),
+    url(${HeroBackground.src}) type("image/jpeg")
+  )`
+
+const { title, description } = Astro.props;
+
+const titleFormatted = title.replace(/\*\*(.*?)\*\*/g, '<span class="text-[#FF329F]">$1</span>')
+const descriptionFormatted = description.replace(/\*\*(.*?)\*\*/g, '<span class="text-medium">$1</span>')
+---
+
+<section class="hero-background flex flex-col gap-7 items-center justify-end py-8 px-4">
+  <h1 class="text-[2.35rem] text-[#2E2E2E] text-center font-bold tracking-wide leading-[1.6]" set:html={titleFormatted}></h1>
+  <p class="text-[#131313] text-center px-2" set:html={descriptionFormatted}></p>
+
+  <button class="py-3 px-10 text-white rounded-full text-base font-bold tracking-wide bg-gradient-to-r from-[#5D95DE] to-[#7526CE] via-[#5D95DE]/66 bg-opacity-100">Contacta Ahora!</button>
+</section>
+
+<style define:vars={{ backgroundUrl: backgroundUrlCSS }}>
+  .hero-background {
+    background-image: var(--backgroundUrl);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    /* height: 100dvh; */
+  }
+</style>

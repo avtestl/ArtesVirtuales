@@ -38,9 +38,10 @@
         "titulo":"",
         "testimonios":[
             {
-                "nombreCompleto": "",
-                "testimonio":"",
-                "imagenPersona":""
+                "nombreCompleto": "Martin Fierro",
+                "testimonio":"Lorem ipsum ; inceptos luctus inceptos. Congue parturient eu per duis condimentum mauris nullam aptent mi. Vivamus fermentum curabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laoreet id massa mi hendrerit.",
+                "fecha": "12/03/77",
+                "imagenPersona":"https://avatar.iran.liara.run/public/9"
             }
         ]
     },
@@ -275,16 +276,27 @@
         ]
     },
     "hero":{
-        "titulo":"",
-        "descripcionDelHero": "",
+        "titulo":"**Potencia tu negocio** con estrategias digitales personalizadas",
+        "descripcionDelHero": "En **Artes Virtuales**, diseñamos estrategias digitales únicas que conectan y hacen crecer tu negocio. **Soluciones creativas**, personalizadas y medibles para llevar tu marca al **siguiente nivel**.",
         "imagen": ""
     },
     "porqueElegirnos":{
         "titulo":"",
         "razones":[
             {
-                "titulo": "",
-                "descripcion": ""
+                "titulo": "Experiencia y Profesionalismo",
+                "descripcion": "Contamos con un equipo de expertos en diversas áreas del marketing digital.",
+                "numeroImagen": 1
+            },
+            {
+              "titulo": "Resultados Comprobados",
+              "descripcion": "Hemos ayudado a numerosas empresas a alcanzar sus metas y superar sus expectativas.",
+              "numeroImagen": 2
+            },
+            {
+              "titulo": "Enfoque Personalizado",
+              "descripcion": "Cada cliente es único, por lo que ofrecemos soluciones a medida que se adaptan a tus necesidades específicas.",
+              "numeroImagen": 3
             }
         ]
     }
