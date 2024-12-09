@@ -17,7 +17,7 @@ const titleFormatted = title.replace(/\*\*(.*?)\*\*/g, '<span class="text-[#FF32
 const descriptionFormatted = description.replace(/\*\*(.*?)\*\*/g, '<span class="text-medium">$1</span>')
 ---
 
-<section class="hero-background flex flex-col gap-7 items-center justify-end py-8 px-4">
+<section class="hero-background flex flex-col gap-7 items-center justify-end py-8 px-4" style="margin-top: 85px;">
   <h1 class="text-[2.35rem] text-[#2E2E2E] text-center font-bold tracking-wide leading-[1.6]" set:html={titleFormatted}></h1>
   <p class="text-[#131313] text-center px-2" set:html={descriptionFormatted}></p>
 

@@ -21,10 +21,10 @@ export default function Testimonials({ title, testimonials }){
 
 
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center mt-32">
       <h3 className="mb-16 text-center text-4xl font-semibold tracking-wide text-dark-text">{title}</h3>
       
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-wrap justify-center gap-12">
         {testimonials.map(testimonial => (
             <TestimonialItem key={testimonial.nombreCompleto} testimonial={testimonial} />
         ))}
