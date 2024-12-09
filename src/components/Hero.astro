@@ -1,15 +1,10 @@
 ---
-import { getImage } from "astro:assets";
-import HeroBackground from "../assets/HeroBackground.jpg"
+import { getCSSImgUrl } from "../utils/style"
+import HeroBackgroundMobile from "../assets/HeroBackgroundMobile.jpg"
+import LaptodHero from "../assets/LaptodHero.png"
 
-const HeroBackgroundAvif = await getImage({ src:HeroBackground, format: "avif" });
-const HeroBackgroundWebP = await getImage({ src:HeroBackground, format: "webp" });
-
-const backgroundUrlCSS =  `image-set(
-    url(${HeroBackgroundAvif.src}) type("image/avif"),
-    url(${HeroBackgroundWebP.src}) type("image/webp"),
-    url(${HeroBackground.src}) type("image/jpeg")
-  )`
+const heroBackgroundMobileCSSURL = await getCSSImgUrl(HeroBackgroundMobile)
+const laptodHeroCSSURL = await getCSSImgUrl(LaptodHero)
 
 const { title, description } = Astro.props;
 
@@ -17,19 +12,43 @@ const titleFormatted = title.replace(/\*\*(.*?)\*\*/g, '<span class="text-[#FF32
 const descriptionFormatted = description.replace(/\*\*(.*?)\*\*/g, '<span class="text-medium">$1</span>')
 ---
 
-<section class="hero-background flex flex-col gap-7 items-center justify-end py-8 px-4" style="margin-top: 85px;">
-  <h1 class="text-[2.35rem] text-[#2E2E2E] text-center font-bold tracking-wide leading-[1.6]" set:html={titleFormatted}></h1>
-  <p class="text-[#131313] text-center px-2" set:html={descriptionFormatted}></p>
+  <div class="bg-[#e3e4e6]">
+  <div class="hero-background h-[90vh] mx-auto flex items-end md:items-center justify-center md:justify-start md:px-8 lg:px-14">
+    <div class="flex flex-col gap-7 md:gap-9 items-center md:items-start py-8 px-4 mt-[85px] w-full max-w-[680px]">
+      <h1 class="text-[2.35rem] md:text-5xl text-[#2E2E2E] text-center md:text-left font-bold tracking-wide leading-[1.6]" set:html={titleFormatted}></h1>
+      <p class="text-[#131313] text-center md:text-left md:text-lg px-2" set:html={descriptionFormatted}></p>
 
-  <button class="py-3 px-10 text-white rounded-full text-base font-bold tracking-wide bg-gradient-to-r from-[#5D95DE] to-[#7526CE] via-[#5D95DE]/66 bg-opacity-100">Contacta Ahora!</button>
-</section>
+    <button class="py-3 px-10 md:px-12 mx-auto text-white rounded-full text-base font-bold tracking-wide bg-gradient-to-r from-[#5D95DE] to-[#7526CE] via-[#5D95DE]/66 bg-opacity-100">Contacta Ahora!</button>
+    </div>
+  </div>
+</div>
 
-<style define:vars={{ backgroundUrl: backgroundUrlCSS }}>
+<style define:vars={{ backgroundMobileUrl: heroBackgroundMobileCSSURL, laptodHeroUrl: laptodHeroCSSURL }}>
   .hero-background {
-    background-image: var(--backgroundUrl);
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-    /* height: 100dvh; */
+    background: var(--backgroundMobileUrl) no-repeat center / cover;
+  }
+
+  @media screen and (width >= 768px) {
+    .hero-background {
+      background: 
+      var(--laptodHeroUrl) no-repeat 100% center/45%,
+      url("/CircleHero.svg") no-repeat 5% -10%/256px, 
+      url("/CircleHero.svg") no-repeat 95% 20%/256px, 
+      url("/CircleHero.svg") no-repeat 70% 80%/192px, 
+      url("/CircleHero.svg") no-repeat 10% 65%/256px;
+    }
+  }
+
+  @media screen and (width >= 1024px) {
+    .hero-background {
+      background: 
+      var(--laptodHeroUrl) no-repeat 100% center/45%,
+      url("/CircleHero.svg") no-repeat 5% -10%/256px, 
+      url("/CircleHero.svg") no-repeat 95% 20%/256px, 
+      url("/CircleHero.svg") no-repeat 50% 50%/192px, 
+      url("/CircleHero.svg") no-repeat 70% 80%/192px, 
+      url("/CircleHero.svg") no-repeat 100% 90%/128px, 
+      url("/CircleHero.svg") no-repeat 10% 65%/256px;
+    }
   }
 </style>
