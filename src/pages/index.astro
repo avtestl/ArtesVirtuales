@@ -1,0 +1,31 @@
+---
+import Distributor from "../components/Distrubution"
+import Team from "../components/Team"
+import data from '../../data.json'
+import Testimonials from "../components/Testimonials"
+import { WhyChooseUs } from "../components/WhyChoose"
+import Services from "../components/Services"
+import Hero from "../components/Hero.astro"
+import Header from "../components/header"
+import Footer from "../components/Footer"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body >
+    <Header dataHeader={data.header} client:idle />
+    <Hero title={data.hero.titulo} description={data.hero.descripcionDelHero} />
+    <Services dataService={data.nuestrosServicios} />
+    <WhyChooseUs title={data.porqueElegirnos.titulo} reasons={data.porqueElegirnos.razones} />
+		<Distributor dataDistributor={data.distribuidoras} />
+    <Testimonials title={data.testimonios.titulo} testimonials={data.testimonios.testimonios} />
+    <Team dataTeam={data.nuestroEquipo} client:idle />
+    <Footer />
+	</body>
+</html>
