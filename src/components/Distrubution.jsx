@@ -19,8 +19,8 @@ const Card = ({ logo, link, altText }) => {
 const Distributor = ({dataDistributor}) => {
   return (
     <div className="flex flex-col items-center mt-32">
-      <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6" >
-        Somos distribuidor autorizado <span className="text-blue-600">LATAM</span>
+      <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6" >
+        Nuestros <span className="text-blue-600">Partners</span>
       </h2>
       <div className="flex flex-wrap justify-center gap-10" >
         {dataDistributor.distribuidoras.map((distribuidor) => (
