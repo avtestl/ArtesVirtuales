@@ -1,0 +1,15 @@
+---
+import data from '../../../data.json'
+export function getStaticPaths() {
+  const equipo = data.nuestroEquipo.equipo.map((elemento)=>{
+    let urlNombre = elemento.nombreUrl
+    return {params: {integrante: urlNombre}}
+  })
+  return equipo 
+}
+const { integrante } = Astro.params;
+
+const usuarioUrl = data.nuestroEquipo.equipo.find(user => user.nombreUrl === integrante);
+
+---
+<div>Good integrante, {usuarioUrl.nombreCompleto}!</div>
