@@ -6,8 +6,9 @@ import Testimonials from "../components/Testimonials"
 import { WhyChooseUs } from "../components/WhyChoose"
 import Services from "../components/Services"
 import Hero from "../components/Hero.astro"
-import Header from "../components/header"
+import Header from "../components/Header"
 import Footer from "../components/Footer"
+import WhatsappButton from '../components/WhatsappButton'
 ---
 
 <html lang="en">
@@ -20,12 +21,24 @@ import Footer from "../components/Footer"
 	</head>
 	<body >
     <Header dataHeader={data.header} client:idle />
-    <Hero title={data.hero.titulo} description={data.hero.descripcionDelHero} />
+    <Hero 
+      title={data.hero.titulo} 
+      description={data.hero.descripcionDelHero}
+      whatsapp={data.redesSociales.whatsapp} 
+    />
     <Services dataService={data.nuestrosServicios} />
     <WhyChooseUs title={data.porqueElegirnos.titulo} reasons={data.porqueElegirnos.razones} />
 		<Distributor dataDistributor={data.distribuidoras} />
     <Testimonials title={data.testimonios.titulo} testimonials={data.testimonios.testimonios} />
     <Team dataTeam={data.nuestroEquipo} client:idle />
-    <Footer />
+    <Footer redesSociales={data.redesSociales} />
+    <WhatsappButton whatsapp={data.redesSociales.whatsapp} />
 	</body>
 </html>
+
+
+<style>
+  *{
+    scroll-behavior: smooth;
+  }
+</style>
