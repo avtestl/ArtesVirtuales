@@ -29,11 +29,12 @@ const Team = ({ dataTeam }) => {
 
 
   return (
-    <div className="flex flex-col items-center bg-gray-50 py-8 mt-32">
+    <div className="flex flex-col items-center bg-gray-50 py-8 mt-32" id="equipo">
+      <h2 className="text-3xl mb-10" >{dataTeam.titulo}</h2>
       {/* Título */}
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">
+      <h3 className="text-2xl font-bold text-gray-800 mb-6">
         {dataTeam.equipo[currentIndex].tituloPuesto}
-      </h2>
+      </h3>
 
       {/* Carrusel principal */}
       <div className="relative w-full max-w-full scrollbar-hide overflow-x-hidden">

@@ -3,11 +3,7 @@
         "imagenLogo": "/logo.png"
     },
     "footer":{
-        "imagenLogo": ""
-    },
-    "quienesSomos":{
-        "titulo":"",
-        "quienesSomos":""
+        "imagenLogo": "/logo.png"
     },
     "nuestrosServicios":{
         "titulo": "Nuestro Servicios",
@@ -261,7 +257,7 @@
             },
             {
                 "imagen": "/storeSys.png",
-                "url": "",
+                "url": "https://storesys.com.ar/",
                 "alt": "storeSys"
             }
         ]
@@ -272,7 +268,7 @@
         "imagen": ""
     },
     "porqueElegirnos":{
-        "titulo":"",
+        "titulo":"Por que Elegirnos",
         "razones":[
             {
                 "titulo": "Experiencia y Profesionalismo",
@@ -290,5 +286,11 @@
               "numeroImagen": 3
             }
         ]
+    },
+    "redesSociales":{
+      "instagram":"",
+      "email": "",
+      "whatsapp": "https://api.whatsapp.com/send?phone=541157245467",
+      "linkedIn": ""
     }
 }

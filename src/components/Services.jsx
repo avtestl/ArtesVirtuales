@@ -2,13 +2,13 @@ import _ from "react";
 
 const Servicios = ({dataService}) => {
   return (
-    <div className="bg-[#E3E4E8] flex flex-col py-12 px-5 mt-32">
+    <div className="bg-[#E3E4E8] flex flex-col py-12 px-5 mt-32" id="servicios">
         <h2 className="text-center text-3xl font-semibold text-[#2F2E41] mb-6">
           {dataService.titulo}
         </h2>
         <div className="flex flex-wrap justify-center gap-10" >
-        {dataService.servicios && dataService.servicios.map(servicio => (
-            <div className="bg-white p-6 rounded-2xl shadow-md my-6 w-[350px]">
+        {dataService.servicios && dataService.servicios.map((servicio, i) => (
+            <div className="bg-white p-6 rounded-2xl shadow-md my-6 w-[350px]" key={i}>
               <div className="flex justify-center mb-4 h-[150px]">
                 <img src={servicio.imagen} alt={servicio.titulo} />
               </div>

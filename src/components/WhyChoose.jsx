@@ -26,7 +26,7 @@ function Reason({ img, title, description }){
 
 export function WhyChooseUs ({ reasons, title }) {
   return (
-    <section className="bg-[#D1E0EB] px-6 py-12 mt-32">
+    <section className="bg-[#D1E0EB] px-6 py-12 mt-32" id="propuesta">
       <h2 className="mb-16 text-center text-4xl font-semibold text-dark-text">
         {title}
       </h2>

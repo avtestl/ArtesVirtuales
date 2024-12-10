@@ -21,7 +21,7 @@ export default function Testimonials({ title, testimonials }){
 
 
   return (
-    <section className="flex flex-col items-center mt-32">
+    <section className="flex flex-col items-center mt-32" id="testimonios">
       <h3 className="mb-16 text-center text-4xl font-semibold tracking-wide text-dark-text">{title}</h3>
       
       <div className="flex flex-wrap justify-center gap-12">
