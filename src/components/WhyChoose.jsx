@@ -1,6 +1,6 @@
-import ReasonOneImg from "../assets/Reason1.png"
-import ReasonTwoImg from "../assets/Reason2.png"
-import ReasonThreeImg from "../assets/Reason3.png"
+import ReasonOneImg from "@/assets/Reason1.png"
+import ReasonTwoImg from "@/assets/Reason2.png"
+import ReasonThreeImg from "@/assets/Reason3.png"
 
 const images = [
   <img src={ReasonOneImg.src} alt="Why Choose Us" className="aspect-[15/10]" width={296} loading="lazy" />,

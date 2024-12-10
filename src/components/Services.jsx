@@ -1,5 +1,3 @@
-import _ from "react";
-
 const Servicios = ({dataService}) => {
   return (
     <div className="bg-[#E3E4E8] flex flex-col py-12 px-5 mt-32" id="servicios">

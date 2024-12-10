@@ -1,5 +1,3 @@
-import _ from "react";
-
 const navbarItems = [
   "Inicio",
   "Servicios",

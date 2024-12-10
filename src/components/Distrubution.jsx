@@ -1,5 +1,3 @@
-import React from "react";
-
 const Card = ({ logo, link, altText }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg p-4 text-center my-4">

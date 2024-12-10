@@ -1,4 +1,4 @@
-import _, { useState } from 'react';
+import { useState } from 'react';
 
 const Header = ({dataHeader}) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
