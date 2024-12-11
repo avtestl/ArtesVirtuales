@@ -1,5 +1,10 @@
 ---
 import data from '../../../data.json'
+import EquipoSection from '../../components/equipo'
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
+
 export function getStaticPaths() {
   const equipo = data.nuestroEquipo.equipo.map((elemento)=>{
     let urlNombre = elemento.nombreUrl
@@ -11,5 +16,22 @@ const { integrante } = Astro.params;
 
 const usuarioUrl = data.nuestroEquipo.equipo.find(user => user.nombreUrl === integrante);
 
+//el client:idle es un configuracion de lectura para cierto archivos para react//
 ---
-<div>Good integrante, {usuarioUrl.nombreCompleto}!</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<Header client:idle dataHeader={data.header}  > </Header>
+<EquipoSection client:idle data= {usuarioUrl}/>
+<Footer redesSociales={data.redesSociales}> </Footer>
+  
+</body>
+</html>
+
+
+

@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import './EquipoSection.css';
+import { useState } from "react";
+import "../styles/equipo.css";
 
-const EquipoSection = () => {
-  const [data, setData] = useState(null);
+
+
+
+const EquipoSection = ({ data }) => {
   const [expanded, setExpanded] = useState({});
-
 
   const toggleDescription = (index) => {
     setExpanded((prevState) => ({
@@ -13,52 +14,52 @@ const EquipoSection = () => {
     }));
   };
 
-  if (!data) {
-    return <p>Cargando datos...</p>;
-  }
-
-  const { presentacion, proyectos } = data;
+  const { nombreCompleto, videoPresentacion, tituloPuesto, experiencia } = data;
 
   return (
+
     <main className="equipo-section">
       <section className="presentacion-equipo">
         <article>
-          <h1>Presentación</h1>
-          <h1>{presentacion.nombre}</h1>
+          <h1>Presentacion</h1>
+          <h1>{nombreCompleto}</h1>
           <video
-            src={presentacion.video}
+            src={videoPresentacion}
             autoPlay
-            poster={presentacion.poster}
+            poster={data.bannerImagen}
             controls
           >
             Tu navegador no admite el elemento <code>video</code>.
           </video>
-          <h2>{presentacion.rol}</h2>
+          <h2>{tituloPuesto}</h2>
         </article>
       </section>
 
       <section className="proyectos">
         <h2>Trabajos/Proyectos</h2>
-        {proyectos.map((proyecto, index) => (
+        {experiencia.map((proyecto, index) => (
           <article key={index}>
             <img src={proyecto.imagen} alt="imagen de trabajo realizado" />
-            <h3>{proyecto.titulo}</h3>
+            <h3>{proyecto.tituloOEmpresa}</h3>
             <p
               className={`project-description ${
-                expanded[index] ? 'expanded' : ''
+                expanded[index] ? "expanded" : ""
               }`}
             >
               {proyecto.descripcion}
               {expanded[index] && (
-                <span className="hidden-text">{proyecto.textoOculto}</span>
+                <span className="hidden-text">{proyecto.puesto}</span>
               )}
             </p>
-            <button className="toggle-btn" onClick={() => toggleDescription(index)}>
-              {expanded[index] ? 'Ver menos' : 'Ver más'}
+            <button
+              className="toggle-btn"
+              onClick={() => toggleDescription(index)}
+            >
+              {expanded[index] ? "Ver menos" : "Ver mas"}
             </button>
             <button>
               <a
-                href={proyecto.enlace}
+                href={proyecto.urlTrabajo}
                 target="_blank"
                 rel="noopener noreferrer"
               >

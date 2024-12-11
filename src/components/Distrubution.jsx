@@ -1,5 +1,3 @@
-import React from "react";
-
 const Card = ({ logo, link, altText }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg p-4 text-center my-4">
@@ -18,17 +16,19 @@ const Card = ({ logo, link, altText }) => {
 
 const Distributor = ({dataDistributor}) => {
   return (
-    <div className="flex flex-col items-center pt-24 pb-12">
-      <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6" >
-        Somos distribuidor autorizado <span className="text-blue-600">LATAM</span>
+    <div className="flex flex-col items-center mt-32">
+      <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6" >
+        Nuestros <span className="text-blue-600">Partners</span>
       </h2>
-      {dataDistributor.distribuidoras.map((distribuidor) => (
-        <Card 
-            logo={distribuidor.imagen}
-            link={distribuidor.url} 
-            altText={distribuidor.alt}
-        />
-      ))}
+      <div className="flex flex-wrap justify-center gap-10" >
+        {dataDistributor.distribuidoras.map((distribuidor) => (
+          <Card 
+              logo={distribuidor.imagen}
+              link={distribuidor.url} 
+              altText={distribuidor.alt}
+          />
+        ))}
+      </div>
     </div>
   );
 };

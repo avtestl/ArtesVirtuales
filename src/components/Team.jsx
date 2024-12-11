@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const Team = ({ dataTeam }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(Math.floor(dataTeam.equipo.length / 2));
   const [windowWidth, setWindowWidth] = useState(0);
   const [animationDuration, setAnimationDuration] = useState(500);
 
@@ -21,7 +21,6 @@ const Team = ({ dataTeam }) => {
     handleResize()
     window.addEventListener("resize", handleResize);
 
-    // Limpia el listener al desmontar el componente
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -30,11 +29,12 @@ const Team = ({ dataTeam }) => {
 
 
   return (
-    <div className="flex flex-col items-center bg-gray-50 py-8">
+    <div className="flex flex-col items-center bg-gray-50 py-8 mt-32" id="equipo">
+      <h2 className="text-3xl mb-10" >{dataTeam.titulo}</h2>
       {/* Título */}
-      <h2 className="text-2xl font-bold text-gray-800 mb-6">
+      <h3 className="text-2xl font-bold text-gray-800 mb-6">
         {dataTeam.equipo[currentIndex].tituloPuesto}
-      </h2>
+      </h3>
 
       {/* Carrusel principal */}
       <div className="relative w-full max-w-full scrollbar-hide overflow-x-hidden">
