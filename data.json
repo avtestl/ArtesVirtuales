@@ -53,200 +53,168 @@
         }
         ]
     },
-    "nuestroEquipo":{
-        "titulo":"Nuestro Equipo",
-        "equipo":[
-            {
-                "nombreCompleto": "Daniel Campos",
-                "nombreUrl": "daniel-campos",
-                "tituloPuesto":"Fronted Developer",
-                "videoPresentacion":"",
-                "bannerImagen": "",
-                "imagenPersona": "/dani.png",
-                "portfolio":"",
-                "experiencia":[
-                    {
-                        "tituloOEmpresa": "",
-                        "inicio":"",
-                        "final":"",
-                        "descripcion":"",
-                        "puesto": "",
-                        "imagen":"",
-                        "video":"",
-                        "urlTrabajo":""
-                    }
-                ]
-            },
-            {
-                "nombreCompleto": "Carlos Campos",
-                "nombreUrl": "carlos-Pampos",
-                "tituloPuesto":"Backed developer",
-                "videoPresentacion":"",
-                "bannerImagen": "",
-                "imagenPersona": "/carlos.png",
-                "portfolio":"",
-                "experiencia":[
-                    {
-                        "tituloOEmpresa": "",
-                        "inicio":"",
-                        "final":"",
-                        "descripcion":"",
-                        "puesto": "",
-                        "imagen":"",
-                        "video":"",
-                        "urlTrabajo":""
-                    }
-                ]
-            },
-            {
-                "nombreCompleto": "Mury Cuello",
+      "nuestroEquipo": {
+          "titulo": "Nuestro Equipo",
+          "equipo": [
+              {
+                  "nombreCompleto": "Daniel Campos",
+                  "nombreUrl": "daniel-campos",
+                  "tituloPuesto": "Frontend Developer",
+                  "videoPresentacion": "/public/videos/daniel.mp4",
+                  "bannerImagen": "/public/banners/daniel-banner.jpg",
+                  "imagenPersona": "/public/images/dani.png",
+                  "portfolio": "https://www.portfolio-daniel.com",
+                  "experiencia": [
+                      {
+                          "tituloOEmpresa": "Tech Solutions",
+                          "inicio": "2020",
+                          "final": "2023",
+                          "descripcion": "Desarrollo de interfaces modernas y responsivas.",
+                          "puesto": "Frontend Developer",
+                          "imagen": "/public/images/tech-solutions.jpg",
+                          "video": "/public/videos/tech-project.mp4",
+                          "urlTrabajo": "https://www.techsolutions.com"
+                      }
+                  ]
+              },
+              {
+                  "nombreCompleto": "Carlos Campos",
+                  "nombreUrl": "carlos-campos",
+                  "tituloPuesto": "Backend Developer",
+                  "videoPresentacion": "/public/videos/carlos.mp4",
+                  "bannerImagen": "/public/banners/carlos-banner.jpg",
+                  "imagenPersona": "/public/images/carlos.png",
+                  "portfolio": "https://www.portfolio-carlos.com",
+                  "experiencia": [
+                      {
+                          "tituloOEmpresa": "Server Hub",
+                          "inicio": "2019",
+                          "final": "2023",
+                          "descripcion": "Implementación de APIs seguras y escalables.",
+                          "puesto": "Backend Developer",
+                          "imagen": "/public/images/server-hub.jpg",
+                          "video": "/public/videos/server-project.mp4",
+                          "urlTrabajo": "https://www.serverhub.com"
+                      }
+                  ]
+              },
+              {
+                "nombreCompleto": "Mauricio Abel Cuellar",
                 "nombreUrl": "mauricio-cuellar",
-                "tituloPuesto":"Full Stack developer",
-                "videoPresentacion":"",
+                "tituloPuesto": "Project Manager",
+                "videoPresentacion": "/public/videos/CuellarMauricioAbel.mp4",
                 "bannerImagen": "",
-                "imagenPersona": "/mauricio.png",
-                "portfolio":"",
-                "experiencia":[
-                    {
-                        "tituloOEmpresa": "",
-                        "inicio":"",
-                        "final":"",
-                        "descripcion":"",
-                        "puesto": "",
-                        "imagen":"",
-                        "video":"",
-                        "urlTrabajo":""
-                    }
+                "imagenPersona": "",
+                "portfolio": "",
+                "experiencia": [
+                  {
+                    "tituloOEmpresa": "Creacion del sitio JB Industrial Group",
+                    "inicio": "01-08-2024",
+                    "final": "01-10-2024",
+                    "descripcion": "Este proyecto fue desarrollado en colaboracion con Arte Virtuales, satisfaciendo las necesidades de un cliente del sector de ropa industrial. El proyecto incluyo diseno inicial en Figma, desarrollo en Astro y la publicacion final mediante Hostinger, asegurando una landing page profesional y funcional.",
+                    "puesto": "Desarrollador Web",
+                    "imagen": "/public/mauricioTrabajos/fotoDeTrabajoJB.png",
+                    "video": "",
+                    "urlTrabajo": "https://www.jbindustrialgroup.com/"
+                  },
+                  {
+                    "tituloOEmpresa": "Creacion del sitio JB Industrial Group",
+                    "inicio": "01-08-2024",
+                    "final": "01-10-2024",
+                    "descripcion": "Este proyecto fue desarrollado en colaboracion con Arte Virtuales, satisfaciendo las necesidades de un cliente del sector de ropa industrial. El proyecto incluyo diseno inicial en Figma, desarrollo en Astro y la publicacion final mediante Hostinger, asegurando una landing page profesional y funcional.",
+                    "puesto": "Desarrollador Web",
+                    "imagen": "/public/mauricioTrabajos/fotoDeTrabajoJB.png",
+                    "video": "",
+                    "urlTrabajo": "https://www.jbindustrialgroup.com/"
+                  }
                 ]
-            },
-            {
-                "nombreCompleto": "Daniel Campos",
-                "nombreUrl": "daniel-campos",
-                "tituloPuesto":"Fronted Developer",
-                "videoPresentacion":"",
-                "bannerImagen": "",
-                "imagenPersona": "/dani.png",
-                "portfolio":"",
-                "experiencia":[
-                    {
-                        "tituloOEmpresa": "",
-                        "inicio":"",
-                        "final":"",
-                        "descripcion":"",
-                        "puesto": "",
-                        "imagen":"",
-                        "video":"",
-                        "urlTrabajo":""
-                    }
-                ]
-            },
-            {
-                "nombreCompleto": "Carlos Campos",
-                "nombreUrl": "carlos-Pampos",
-                "tituloPuesto":"Backed developer",
-                "videoPresentacion":"",
-                "bannerImagen": "",
-                "imagenPersona": "/carlos.png",
-                "portfolio":"",
-                "experiencia":[
-                    {
-                        "tituloOEmpresa": "",
-                        "inicio":"",
-                        "final":"",
-                        "descripcion":"",
-                        "puesto": "",
-                        "imagen":"",
-                        "video":"",
-                        "urlTrabajo":""
-                    }
-                ]
-            },
-            {
-                "nombreCompleto": "Daniel Campos",
-                "nombreUrl": "daniel-campos",
-                "tituloPuesto":"Fronted Developer",
-                "videoPresentacion":"",
-                "bannerImagen": "",
-                "imagenPersona": "/dani.png",
-                "portfolio":"",
-                "experiencia":[
-                    {
-                        "tituloOEmpresa": "",
-                        "inicio":"",
-                        "final":"",
-                        "descripcion":"",
-                        "puesto": "",
-                        "imagen":"",
-                        "video":"",
-                        "urlTrabajo":""
-                    }
-                ]
-            },
-            {
-                "nombreCompleto": "Carlos Campos",
-                "nombreUrl": "carlos-Pampos",
-                "tituloPuesto":"Backed developer",
-                "videoPresentacion":"",
-                "bannerImagen": "",
-                "imagenPersona": "/carlos.png",
-                "portfolio":"",
-                "experiencia":[
-                    {
-                        "tituloOEmpresa": "",
-                        "inicio":"",
-                        "final":"",
-                        "descripcion":"",
-                        "puesto": "",
-                        "imagen":"",
-                        "video":"",
-                        "urlTrabajo":""
-                    }
-                ]
-            },
-            {
-                "nombreCompleto": "Mury Cuello",
-                "nombreUrl": "mauricio-cuellar",
-                "tituloPuesto":"Full Stack developer",
-                "videoPresentacion":"",
-                "bannerImagen": "",
-                "imagenPersona": "/mauricio.png",
-                "portfolio":"",
-                "experiencia":[
-                    {
-                        "tituloOEmpresa": "",
-                        "inicio":"",
-                        "final":"",
-                        "descripcion":"",
-                        "puesto": "",
-                        "imagen":"",
-                        "video":"",
-                        "urlTrabajo":""
-                    }
-                ]
-            },
-            {
-                "nombreCompleto": "Daniel Campos",
-                "nombreUrl": "daniel-campos",
-                "tituloPuesto":"Fronted Developer",
-                "videoPresentacion":"",
-                "bannerImagen": "",
-                "imagenPersona": "/dani.png",
-                "portfolio":"",
-                "experiencia":[
-                    {
-                        "tituloOEmpresa": "",
-                        "inicio":"",
-                        "final":"",
-                        "descripcion":"",
-                        "puesto": "",
-                        "imagen":"",
-                        "video":"",
-                        "urlTrabajo":""
-                    }
-                ]
-            }
-        ]
-    },
+              },                       
+              {
+                  "nombreCompleto": "WILLIAM PINZON",
+                  "nombreUrl": "WILLIAM-PINZON",
+                  "tituloPuesto": "Marketing Digital",
+                  "videoPresentacion": "/public/videos/sofia.mp4",
+                  "bannerImagen": "/public/banners/sofia-banner.jpg",
+                  "imagenPersona": "/public/images/sofia.png",
+                  "portfolio": "https://www.portfolio-sofia.com",
+                  "experiencia": [
+                      {
+                          "tituloOEmpresa": "Creative Studio",
+                          "inicio": "2018",
+                          "final": "2022",
+                          "descripcion": "Diseño de experiencias de usuario centradas en la accesibilidad.",
+                          "puesto": "UI/UX Designer",
+                          "imagen": "/public/images/creative-studio.jpg",
+                          "video": "/public/videos/creative-project.mp4",
+                          "urlTrabajo": "https://www.creativestudio.com"
+                      }
+                  ]
+              },
+              {
+                  "nombreCompleto": "Dario Manzilla",
+                  "nombreUrl": "Dario-Manzilla",
+                  "tituloPuesto": "UI/UX Designer",
+                  "videoPresentacion": "/public/videos/luis.mp4",
+                  "bannerImagen": "/public/banners/luis-banner.jpg",
+                  "imagenPersona": "/public/images/luis.png",
+                  "portfolio": "https://www.portfolio-luis.com",
+                  "experiencia": [
+                      {
+                          "tituloOEmpresa": "Agile Works",
+                          "inicio": "2017",
+                          "final": "2023",
+                          "descripcion": "Gestión de proyectos tecnológicos y liderazgos de equipos.",
+                          "puesto": "Project Manager",
+                          "imagen": "/public/images/agile-works.jpg",
+                          "video": "/public/videos/agile-project.mp4",
+                          "urlTrabajo": "https://www.agileworks.com"
+                      }
+                  ]
+              },
+              {
+                  "nombreCompleto": "Jorge",
+                  "nombreUrl": "Jorge",
+                  "tituloPuesto": "QA Specialist",
+                  "videoPresentacion": "/public/videos/elena.mp4",
+                  "bannerImagen": "/public/banners/elena-banner.jpg",
+                  "imagenPersona": "/public/images/elena.png",
+                  "portfolio": "https://www.portfolio-elena.com",
+                  "experiencia": [
+                      {
+                          "tituloOEmpresa": "Test Labs",
+                          "inicio": "2019",
+                          "final": "2023",
+                          "descripcion": "Ejecución de pruebas funcionales y automatizadas.",
+                          "puesto": "QA Specialist",
+                          "imagen": "/public/images/test-labs.jpg",
+                          "video": "/public/videos/test-project.mp4",
+                          "urlTrabajo": "https://www.testlabs.com"
+                      }
+                  ]
+              },
+              {
+                  "nombreCompleto": "Katerin",
+                  "nombreUrl": "Katerin",
+                  "tituloPuesto": "DevOps Engineer",
+                  "videoPresentacion": "/public/videos/juan.mp4",
+                  "bannerImagen": "/public/banners/juan-banner.jpg",
+                  "imagenPersona": "/public/images/juan.png",
+                  "portfolio": "https://www.portfolio-juan.com",
+                  "experiencia": [
+                      {
+                          "tituloOEmpresa": "Cloudify",
+                          "inicio": "2020",
+                          "final": "2023",
+                          "descripcion": "Automatización de procesos en entornos de producción.",
+                          "puesto": "DevOps Engineer",
+                          "imagen": "/public/images/cloudify.jpg",
+                          "video": "/public/videos/cloudify-project.mp4",
+                          "urlTrabajo": "https://www.cloudify.com"
+                      }
+                  ]
+              }
+          ]
+      },
     "distribuidoras":{
         "titulo": "Somos distribuidor autorizado LATAM",
         "distribuidoras": [
