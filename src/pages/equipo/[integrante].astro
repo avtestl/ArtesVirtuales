@@ -1,9 +1,9 @@
 ---
-import data from '../../../data.json'
-import EquipoSection from '../../components/equipo'
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-
+import data from '@data'
+import EquipoSection from '@/components/equipo'
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import "@/styles/equipo.css"
 
 export function getStaticPaths() {
   const equipo = data.nuestroEquipo.equipo.map((elemento)=>{
@@ -20,18 +20,17 @@ const usuarioUrl = data.nuestroEquipo.equipo.find(user => user.nombreUrl === int
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" type="image/ico" href="/ArtesVirtualesLogos/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Artes Virtuales</title>
-</head>
-<body>
-<Header client:idle dataHeader={data.header}  > </Header>
-<EquipoSection client:idle data= {usuarioUrl}/>
-<Footer redesSociales={data.redesSociales}> </Footer>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/ico" href="/ArtesVirtualesLogos/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artes Virtuales</title>
+  </head>
+  <body>
+    <Header client:idle dataHeader={data.header} /> 
+    <EquipoSection client:load data={usuarioUrl}/>
+    <Footer redesSociales={data.redesSociales} />    
+  </body>
 </html>
 
 
