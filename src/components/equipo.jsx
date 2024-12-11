@@ -1,8 +1,4 @@
 import { useState } from "react";
-import "../styles/equipo.css";
-
-
-
 
 const EquipoSection = ({ data }) => {
   const [expanded, setExpanded] = useState({});
@@ -25,7 +21,6 @@ const EquipoSection = ({ data }) => {
           <h1>{nombreCompleto}</h1>
           <video
             src={videoPresentacion}
-            autoPlay
             poster={data.bannerImagen}
             controls
           >
