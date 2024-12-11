@@ -75,7 +75,7 @@ const Team = ({ dataTeam }) => {
       <p className="mt-4 text-lg font-medium">
         {dataTeam.equipo[currentIndex].nombreCompleto}
       </p>
-      <a href="#" className="text-[#5D94C6] underline" >Ver mas</a>
+      <a href={dataTeam.equipo[currentIndex].portfolio || `/equipo/${dataTeam.equipo[currentIndex].nombreUrl}`} className="text-[#5D94C6] underline" >Ver mas</a>
       {/* Navegación con miniaturas */}
       <div className="flex justify-center flex-wrap gap-4 mt-6">
         {dataTeam.equipo.map((profile, index) => (
