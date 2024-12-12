@@ -19,7 +19,7 @@ const Header = ({dataHeader}) => {
     <header className="fixed top-0 left-0 w-full bg-main shadow-md z-50 h-[85px]">
       <div className="flex justify-between items-center px-6 py-4">
         <div className="text-2xl font-bold flex items-center">
-          <img src={dataHeader.imagenLogo} className='w-[105px]' alt="Artes Virtuales" />
+          <img src={dataHeader.imagenLogo} className='w-[105px]' width={105} height={52} alt="Artes Virtuales" />
         </div>
         <button
           onClick={toggleNav}

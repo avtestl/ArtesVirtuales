@@ -1,7 +1,7 @@
 const Card = ({ logo, link, altText }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg p-4 text-center my-4">
-      <img src={logo} alt={altText} className="w-full h-20 object-contain mx-auto mb-4" />
+      <img src={logo} alt={altText} className="w-full h-20 object-contain mx-auto mb-4" width={230} height={80} loading="lazy" />
       <a
         href={link}
         target="_blank"

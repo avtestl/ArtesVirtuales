@@ -55,6 +55,8 @@ const Team = ({ dataTeam }) => {
               <img
                 src={profile.imagenPersona}
                 onClick={() => handleProfileClick(index)}
+                width={index === currentIndex  ? 200 : 60}
+                height={index === currentIndex  ? 200 : 60}
                 className={`rounded-full border-4 border-white shadow-lg object-cover cursor-pointer transition-all ${
                   index === currentIndex ? "w-[200px]" : "w-[60px]"
                 }`}
@@ -84,6 +86,7 @@ const Team = ({ dataTeam }) => {
             src={profile.imagenPersona}
             alt={profile.nombreCompleto}
             onClick={() => handleProfileClick(index)}
+            width={48} height={48}
             className={`w-12 h-12 rounded-full cursor-pointer border-2 border-gray-300 shadow-md transition-all duration-500 ${
               index === currentIndex
                 ? "opacity-50 cursor-default"

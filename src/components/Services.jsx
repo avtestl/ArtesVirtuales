@@ -8,7 +8,7 @@ const Servicios = ({dataService}) => {
         {dataService.servicios && dataService.servicios.map((servicio, i) => (
             <div className="bg-white p-6 rounded-2xl shadow-md my-6 w-[350px]" key={i}>
               <div className="flex justify-center mb-4 h-[150px]">
-                <img src={servicio.imagen} alt={servicio.titulo} />
+                <img src={servicio.imagen} alt={servicio.titulo} width={300} height={150} loading="lazy" />
               </div>
               <h3 className="text-xl font-bold text-center text-[#5382AD] mb-2">
                 {servicio.titulo}
