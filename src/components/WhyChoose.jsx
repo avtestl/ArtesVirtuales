@@ -3,9 +3,9 @@ import ReasonTwoImg from "@/assets/Reason2.png"
 import ReasonThreeImg from "@/assets/Reason3.png"
 
 const images = [
-  <img src={ReasonOneImg.src} alt="Why Choose Us" className="aspect-[15/10]" width={296} loading="lazy" />,
-  <img src={ReasonTwoImg.src} alt="Why Choose Us" className="aspect-[15/10]" width={296} loading="lazy" />,
-  <img src={ReasonThreeImg.src} alt="Why Choose Us" className="aspect-[15/10]" width={296} loading="lazy" />
+  <img src={ReasonOneImg.src} alt="Why Choose Us" className="aspect-[15/10]" width={296} height={197} loading="lazy" />,
+  <img src={ReasonTwoImg.src} alt="Why Choose Us" className="aspect-[15/10]" width={296} height={197} loading="lazy" />,
+  <img src={ReasonThreeImg.src} alt="Why Choose Us" className="aspect-[15/10]" width={296} height={197} loading="lazy" />
 ]
 
 function Reason({ img, title, description }){

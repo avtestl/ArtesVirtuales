@@ -1,5 +1,7 @@
 ---
 import { ViewTransitions } from "astro:transitions"
+import { Head } from 'astro-capo'
+
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import WhatsappBUtton from "@/components/WhatsappButton"
@@ -11,7 +13,7 @@ const { title, description } = Astro.props
 ---
 <!DOCTYPE html>
 <html lang="es">
-	<head>
+	<Head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/ico" href="/ArtesVirtualesLogos/favicon.io" />
 		<meta name="viewport" content="width=device-width" />
@@ -19,7 +21,7 @@ const { title, description } = Astro.props
     <meta name="description" content={description} />
 		<title>{title}</title>
     <ViewTransitions />
-	</head>
+	</Head>
 	<body >
     <Header client:idle dataHeader={data.header} /> 
     <slot />
