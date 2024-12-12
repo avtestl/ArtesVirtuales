@@ -8,11 +8,11 @@ const Header = ({dataHeader}) => {
   };
 
   const itemsNavbar = [
-    <a href="/#inicio" className="hover:underline">Inicio</a>,
-    <a href="/#servicios" className="hover:underline">Servicios</a>,
-    <a href="/#propuesta" className="hover:underline">Propuesta</a>,
-    <a href="/#testimonios" className="hover:underline">Testimonios</a>,
-    <a href="/#equipo" className="hover:underline">Equipo</a>,
+    <a href="/#inicio" className="hover:underline text-2xl ">Inicio</a>,
+    <a href="/#servicios" className="hover:underline text-2xl">Servicios</a>,
+    <a href="/#propuesta" className="hover:underline text-2xl">Propuesta</a>,
+    <a href="/#testimonios" className="hover:underline text-2xl">Testimonios</a>,
+    <a href="/#equipo" className="hover:underline text-2xl">Equipo</a>,
   ]
 
   return (
