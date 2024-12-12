@@ -39,7 +39,7 @@ const Header = ({dataHeader}) => {
         >
           <button
             
-            className="absolute top-4 right-6 text-2xl focus:outline-none"
+            className="absolute top-4 right-6 text-3xl focus:outline-none"
           >
             &times;
           </button>
