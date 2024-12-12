@@ -1,9 +1,7 @@
 ---
-import data from '@data'
+import BasicLayout from '@/layouts/BasicLayout.astro';
 import EquipoSection from '@/components/equipo'
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import "@/styles/equipo.css"
+import data from '@data'
 
 export function getStaticPaths() {
   const equipo = data.nuestroEquipo.equipo.map((elemento)=>{
@@ -18,20 +16,8 @@ const usuarioUrl = data.nuestroEquipo.equipo.find(user => user.nombreUrl === int
 
 //el client:idle es un configuracion de lectura para cierto archivos para react//
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/ico" href="/ArtesVirtualesLogos/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artes Virtuales</title>
-  </head>
-  <body>
-    <Header client:idle dataHeader={data.header} /> 
-    <EquipoSection client:load data={usuarioUrl}/>
-    <Footer redesSociales={data.redesSociales} />    
-  </body>
-</html>
-
+<BasicLayout title="Artes Virtuales" description="">
+  <EquipoSection client:load data={usuarioUrl}/>
+</BasicLayout>
 
 
