@@ -1,74 +1,9 @@
-.equipo-section {
+body {
   background-image: url("/public/BanersArtesVirtuales/BackGroundImage.png");
-  background-size: cover;
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-/* Presentación Section */
-.presentacion-equipo {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.presentacion-equipo h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #004aad;
-}
-
-.presentacion-equipo video {
-  max-width: 100%;
-  height: auto;
-  margin: 1rem 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 1px solid #ccc;
-}
-
-.presentacion-equipo h2 {
-  font-size: 1.5rem;
-  color: #555;
-  margin-top: 1rem;
-}
-
-/* Proyectos Section */
-.proyectos {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.proyectos h2 {
-  font-size: 1.8rem;
-  color: #004aad;
-  margin-bottom: 2rem;
-}
-
-.proyectos article {
-  display: inline-block;
-  margin: 1rem;
-  text-align: center;
-  width: 250px;
-}
-
-.proyectos article img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem;
-}
-
-.proyectos article h3 {
-  font-size: 1.2rem;
-  color: #004aad;
-  margin-bottom: 1rem;
-}
-
-.proyectos article p {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 1rem;
 }
 
 .proyectos article button {
@@ -93,21 +28,4 @@
   display: inline;
 }
 
-.toggle-btn {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  margin-top: 10px;
-  border-radius: 5px;
-}
 
-.toggle-btn:hover {
-  background-color: #0056b3;
-}
-
-.hola{
-  background-color: red;
-  
-}
