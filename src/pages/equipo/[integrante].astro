@@ -15,9 +15,22 @@ const { integrante } = Astro.params;
 const usuarioUrl = data.nuestroEquipo.equipo.find(user => user.nombreUrl === integrante);
 
 //el client:idle es un configuracion de lectura para cierto archivos para react//
----
-<BasicLayout title="Artes Virtuales" description="">
-  <EquipoSection client:load data={usuarioUrl}/>
-</BasicLayout>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+  <title>Equipo</title>
+</head>
+<body>
+<Header client:idle dataHeader={data.header}  > </Header>
+<EquipoSection client:idle data= {usuarioUrl}/>
+<Footer redesSociales={data.redesSociales}> </Footer>
+  
+</body>
+</html>
+
 
 

@@ -11,9 +11,9 @@ const Team = ({ dataTeam }) => {
     setWindowWidth(window.innerWidth);
   }
   const handleProfileClick = (index) => {
-    const baseDuration = 500 
+    const baseDuration = 500
     const extraDuration = 40
-    setAnimationDuration(baseDuration + extraDuration * index) 
+    setAnimationDuration(baseDuration + extraDuration * index)
     setCurrentIndex(index)
   }
 
@@ -38,9 +38,9 @@ const Team = ({ dataTeam }) => {
 
       {/* Carrusel principal */}
       <div className="relative w-full max-w-full scrollbar-hide overflow-x-hidden">
-        <div 
+        <div
           style={{
-            transform:`translateX(${(windowWidth / 2) - 190}px)`,
+            transform: `translateX(${(windowWidth / 2) - 190}px)`,
           }}
           className="flex items-center space-x-4 justify-start h-[200px]"
         >
@@ -48,21 +48,20 @@ const Team = ({ dataTeam }) => {
             <div
               key={index}
               className={`flex flex-shrink-0 ${index == currentIndex ? 'w-[200px]' : 'w-[60px]'} justify-center transition-all`}
-              style={{ 
+              style={{
                 transitionDuration: animationDuration + 'ms'
               }}
             >
               <img
                 src={profile.imagenPersona}
                 onClick={() => handleProfileClick(index)}
-                className={`rounded-full border-4 border-white shadow-lg object-cover cursor-pointer transition-all ${
-                  index === currentIndex ? "w-[200px]" : "w-[60px]"
-                }`}
+                className={`rounded-full border-4 border-white shadow-lg object-cover cursor-pointer transition-all ${index === currentIndex ? "w-[200px]" : "w-[60px]"
+                  }`}
                 style={{
                   transform:
                     currentIndex === index
-                      ? `translateX(${40 - (currentIndex * 40) + index*2}%)`
-                      : `translateX(${130 - (currentIndex * 120) - index*6}%)`,
+                      ? `translateX(${40 - (currentIndex * 40) + index * 2}%)`
+                      : `translateX(${130 - (currentIndex * 120) - index * 6}%)`,
                   transitionDuration: animationDuration + 'ms'
                 }}
               />
@@ -75,7 +74,14 @@ const Team = ({ dataTeam }) => {
       <p className="mt-4 text-lg font-medium">
         {dataTeam.equipo[currentIndex].nombreCompleto}
       </p>
-      <a href={dataTeam.equipo[currentIndex].portfolio || `/equipo/${dataTeam.equipo[currentIndex].nombreUrl}`} className="text-[#5D94C6] underline" >Ver mas</a>
+
+      <a
+        href={`/equipo/${dataTeam.equipo[currentIndex].nombreUrl}`} // Redirige al perfil del integrante
+        className="text-[#5D94C6] underline"
+      >
+        Ver más
+      </a>
+
       {/* Navegación con miniaturas */}
       <div className="flex justify-center flex-wrap gap-4 mt-6">
         {dataTeam.equipo.map((profile, index) => (
@@ -84,11 +90,10 @@ const Team = ({ dataTeam }) => {
             src={profile.imagenPersona}
             alt={profile.nombreCompleto}
             onClick={() => handleProfileClick(index)}
-            className={`w-12 h-12 rounded-full cursor-pointer border-2 border-gray-300 shadow-md transition-all duration-500 ${
-              index === currentIndex
+            className={`w-12 h-12 rounded-full cursor-pointer border-2 border-gray-300 shadow-md transition-all duration-500 ${index === currentIndex
                 ? "opacity-50 cursor-default"
                 : "hover:scale-110"
-            }`}
+              }`}
           />
         ))}
       </div>
