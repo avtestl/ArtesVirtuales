@@ -21,10 +21,11 @@ const usuarioUrl = data.nuestroEquipo.equipo.find(user => user.nombreUrl === int
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+  <title>Equipo</title>
 </head>
 <body>
 <Header client:idle dataHeader={data.header}  > </Header>

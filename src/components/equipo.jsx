@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"; 
 import AnimatedImage from "./AnimatedImage";
 import "../styles/equipo.css";
 
@@ -8,16 +8,13 @@ const EquipoSection = ({ data }) => {
   const MAX_CHARACTERS = 150; // Número de caracteres visibles por defecto
   const { nombreCompleto, videoPresentacion, tituloPuesto, experiencia } = data;
 
-  // Detectar si es escritorio (más de 1024px)
   useEffect(() => {
     const handleResize = () => {
       setIsDesktop(window.innerWidth > 1024);
     };
 
-    // Detecta el tamaño inicial
     handleResize();
 
-    // Actualiza en caso de cambios en el tamaño de la ventana
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -53,9 +50,9 @@ const EquipoSection = ({ data }) => {
         <h2>Trabajos/Proyectos</h2>
         <div className="contenedor-trabajos">
           {experiencia.map((proyecto, index) => {
-            const isExpanded = expanded[index] || isDesktop; // Mostrar todo en escritorio
+            const isExpanded = expanded[index] || isDesktop;
             const shouldShowButton =
-              proyecto.descripcion.length > MAX_CHARACTERS && !isDesktop; // Botón solo en móvil
+              proyecto.descripcion.length > MAX_CHARACTERS && !isDesktop;
 
             return (
               <article key={index}>
@@ -64,6 +61,10 @@ const EquipoSection = ({ data }) => {
                   alt="imagen de trabajo realizado"
                 />
                 <h3>{proyecto.tituloOEmpresa}</h3>
+                <p className="fecha-trabajo">
+                  <strong>Inicio:</strong> {proyecto.inicio} <br />
+                  <strong>Final:</strong> {proyecto.final}
+                </p>
                 <h4>{proyecto.puesto}</h4>
                 <p className="project-description">
                   {isExpanded
@@ -96,6 +97,12 @@ const EquipoSection = ({ data }) => {
           })}
         </div>
       </section>
+
+      <div className="volver-inicio">
+        <button onClick={() => (window.location.href = "/")}>
+          Volver al Inicio
+        </button>
+      </div>
     </main>
   );
 };
