@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react"; 
 import AnimatedImage from "./AnimatedImage";
 import "../styles/equipo.css";

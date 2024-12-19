@@ -60,8 +60,8 @@
                   "nombreCompleto": "Daniel Campos",
                   "nombreUrl": "daniel-campos",
                   "tituloPuesto": "Full Stack Developer",
-                  "videoPresentacion": "/public/videos/daniel.mp4",
-                  "bannerImagen": "/public/banners/daniel-banner.jpg",
+                  "videoPresentacion": "",
+                  "bannerImagen": "/",
                   "imagenPersona": "dani.png",
                   "portfolio": "https://www.portfolio-daniel.com",
 
@@ -72,8 +72,8 @@
                           "final": "2023",
                           "descripcion": "Desarrollo de interfaces modernas y responsivas.",
                           "puesto": "Frontend Developer",
-                          "imagen": "tech-solutions.jpg",
-                          "video": "tech-project.mp4",
+                          "imagen": "",
+                          "video": "",
 
                           "urlTrabajo": "https://www.techsolutions.com"
                       }
@@ -83,8 +83,8 @@
                   "nombreCompleto": "Carlos Campos",
                   "nombreUrl": "carlos-campos",
                   "tituloPuesto": "Full Stack Developer",
-                  "videoPresentacion": "carlos.mp4",
-                  "bannerImagen": "carlos-banner.jpg",
+                  "videoPresentacion": "",
+                  "bannerImagen": "",
                   "imagenPersona": "carlos.png",
                   "portfolio": "https://www.portfolio-carlos.com",
                   "experiencia": [
@@ -93,8 +93,8 @@
                           "inicio": "2019",
                           "final": "2023",
                           "descripcion": "Implementación de APIs seguras y escalables.",
-                          "imagen": "server-hub.jpg",
-                          "video": "server-project.mp4",
+                          "imagen": "",
+                          "video": "",
                           "urlTrabajo": "https://www.serverhub.com"
                       }
                   ]
@@ -114,7 +114,7 @@
                     "final": "01-10-2024",
                     "descripcion": "Este proyecto fue desarrollado en colaboración con Arte Virtuales, trabajando en conjunto para satisfacer las necesidades de un cliente del sector de ropa industrial que requería el diseño y desarrollo de una landing page profesional para su emprendimiento. Para el diseño inicial, utilizamos Figma, asegurando una interfaz visualmente atractiva y funcional, adaptada a los requerimientos del cliente. En la fase de desarrollo, implementamos el framework Astro, lo que nos permitió crear un sitio web optimizado con una estructura sólida basada en HTML5. Participé tanto en tareas de frontend como de backend, garantizando una integración eficiente entre diseño y funcionalidad. El proyecto tuvo una duración de dos meses, desarrollándose entre agosto y septiembre. Finalmente, publicamos el sitio en un dominio adquirido y configurado mediante Hostinger, proporcionando al cliente un producto final accesible, profesional y listo para representar su marca en línea.",
                     "puesto": "Desarrollador Web",
-                    "imagen": "/mauricio/fotoDeTrabajoJB.png",r
+                    "imagen": "/mauricio/fotoDeTrabajoJB.png",
                     "video": "",
                     "urlTrabajo": "https://www.jbindustrialgroup.com/"
                   },
@@ -134,8 +134,8 @@
                   "nombreCompleto": "WILLIAM PINZON",
                   "nombreUrl": "WILLIAM-PINZON",
                   "tituloPuesto": "Marketing Digital",
-                  "videoPresentacion": "sofia.mp4",
-                  "bannerImagen": "sofia-banner.jpg",
+                  "videoPresentacion": "",
+                  "bannerImagen": "",
                   "imagenPersona": "willian/willian.jpeg",
                   "portfolio": "https://www.portfolio-sofia.com",
                   "experiencia": [
@@ -145,8 +145,8 @@
                           "final": "2022",
                           "descripcion": "Diseño de experiencias de usuario centradas en la accesibilidad.",
                           "puesto": "UI/UX Designer",
-                          "imagen": "creative-studio.jpg",
-                          "video": "creative-project.mp4",
+                          "imagen": "",
+                          "video": "",
                           "urlTrabajo": "https://www.creativestudio.com"
                       }
                   ]
@@ -155,8 +155,8 @@
                   "nombreCompleto": "Dario Manzilla",
                   "nombreUrl": "Dario-Manzilla",
                   "tituloPuesto": "UI/UX Designer",
-                  "videoPresentacion": "luis.mp4",
-                  "bannerImagen": "luis-banner.jpg",
+                  "videoPresentacion": "",
+                  "bannerImagen": "",
                   "imagenPersona": "carlos.png",
                   "portfolio": "https://www.portfolio-luis.com",
                   "experiencia": [
@@ -166,8 +166,8 @@
                           "final": "2023",
                           "descripcion": "Gestión de proyectos tecnológicos y liderazgos de equipos.",
                           "puesto": "Diseñador web",
-                          "imagen": "agile-works.jpg",
-                          "video": "agile-project.mp4",
+                          "imagen": "",
+                          "video": "",
                           "urlTrabajo": "https://www.agileworks.com"
                       }
                   ]
@@ -176,8 +176,8 @@
                   "nombreCompleto": "Jorge",
                   "nombreUrl": "Jorge",
                   "tituloPuesto": "Herramienta Google",
-                  "videoPresentacion": "elena.mp4",
-                  "bannerImagen": "elena-banner.jpg",
+                  "videoPresentacion": "",
+                  "bannerImagen": "",
                   "imagenPersona": "carlos.png",
                   "portfolio": "https://www.portfolio-elena.com",
                   "experiencia": [
@@ -197,8 +197,8 @@
                   "nombreCompleto": "Katerin",
                   "nombreUrl": "Katerin",
                   "tituloPuesto": "DevOps Engineer",
-                  "videoPresentacion": "juan.mp4",
-                  "bannerImagen": "juan-banner.jpg",
+                  "videoPresentacion": "",
+                  "bannerImagen": "",
                   "imagenPersona": "mauricio.png",
                   "portfolio": "https://www.portfolio-juan.com",
                   "experiencia": [
@@ -208,8 +208,8 @@
                           "final": "2023",
                           "descripcion": "Automatización de procesos en entornos de producción.",
                           "puesto": "DevOps Engineer",
-                          "imagen": "cloudify.jpg",
-                          "video": "cloudify-project.mp4",
+                          "imagen": "",
+                          "video": "",
                           "urlTrabajo": "https://www.cloudify.com"
                       }
                   ]

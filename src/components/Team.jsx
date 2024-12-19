@@ -81,7 +81,6 @@ const Team = ({ dataTeam }) => {
       >
         Ver más
       </a>
->>>>>>>>> Temporary merge branch 2
       {/* Navegación con miniaturas */}
       <div className="flex justify-center flex-wrap gap-4 mt-6">
         {dataTeam.equipo.map((profile, index) => (
