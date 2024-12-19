@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react"; 
 import AnimatedImage from "./AnimatedImage";
 import "../styles/equipo.css";
@@ -25,6 +26,7 @@ const EquipoSection = ({ data }) => {
       [index]: !prevState[index],
     }));
   };
+
 
   return (
     <main className="equipo-section">

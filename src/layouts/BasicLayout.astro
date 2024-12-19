@@ -1,0 +1,35 @@
+---
+import { ViewTransitions } from "astro:transitions"
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
+import WhatsappBUtton from "@/components/WhatsappButton"
+import data from "@data"
+
+import "@/styles/equipo.css"
+
+const { title, description } = Astro.props
+---
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/ico" href="/ArtesVirtualesLogos/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+		<title>{title}</title>
+    <ViewTransitions />
+	</head>
+	<body >
+    <Header client:idle dataHeader={data.header} /> 
+    <slot />
+    <Footer redesSociales={data.redesSociales} />
+    <WhatsappBUtton whatsapp={data.redesSociales.whatsapp} />
+	</body>
+</html>
+
+<style>
+  *{
+    scroll-behavior: smooth;
+  }
+</style>
