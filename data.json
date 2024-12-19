@@ -61,22 +61,31 @@
                   "nombreUrl": "daniel-campos",
                   "tituloPuesto": "Full Stack Developer",
                   "videoPresentacion": "",
-                  "bannerImagen": "/",
+                  "bannerImagen": "/dani/bannerImagen.png",
                   "imagenPersona": "dani.png",
                   "portfolio": "https://www.portfolio-daniel.com",
 
                   "experiencia": [
-                      {
-                          "tituloOEmpresa": "Tech Solutions",
-                          "inicio": "2020",
-                          "final": "2023",
-                          "descripcion": "Desarrollo de interfaces modernas y responsivas.",
-                          "puesto": "Frontend Developer",
-                          "imagen": "",
-                          "video": "",
-
-                          "urlTrabajo": "https://www.techsolutions.com"
-                      }
+                    {
+                      "tituloOEmpresa": "Tech Solutions",
+                      "inicio": "2020",
+                      "final": "2023",
+                      "descripcion": "Desarrollo de interfaces modernas y responsivas.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "",
+                      "video": "/dani/videoPrueba.mp4",
+                      "urlTrabajo": ""
+                    },
+                    {
+                      "tituloOEmpresa": "Tech Solutions",
+                      "inicio": "2020",
+                      "final": "2023",
+                      "descripcion": "Desarrollo de interfaces modernas y responsivas.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "",
+                      "video": "/dani/videoPrueba.mp4",
+                      "urlTrabajo": ""
+                    }
                   ]
               },
               {

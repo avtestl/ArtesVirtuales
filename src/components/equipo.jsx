@@ -29,45 +29,68 @@ const EquipoSection = ({ data }) => {
 
   return (
     <main className="equipo-section">
-      <section className="presentacion-equipo">
+      <section className="text-center mb-12">
         <article>
-          <div className="cajaDeH1">
-            <h1>Presentación</h1>
-            <h1>{nombreCompleto}</h1>
+          <div className="flex flex-col items-center justify-center mt-[18vh]">
+            <h1 className="text-3xl mb-4 color-[#006e9f] lg:text-5xl" >{nombreCompleto}</h1>
           </div>
-          <video
-            src={videoPresentacion}
-            autoPlay
-            poster={data.bannerImagen}
-            controls
-          >
-            Tu navegador no admite el elemento <code>video</code>.
-          </video>
-          <h2>{tituloPuesto}</h2>
+          {videoPresentacion ?
+            <video
+              src={videoPresentacion}
+              autoPlay
+              poster={data.bannerImagen}
+              controls
+              className="max-w-[90%] h-auto shadow-md m-auto lg:max-w-[70%]"
+            >
+              Tu navegador no admite el elemento <code>video</code>.
+            </video>
+          :
+            <div className="flex justify-center" >
+              <img src={data.bannerImagen} className="rounded-full w-[300px] h-[300px]" />
+            </div>
+          }
+          
+          <h2 className="text-2xl color-[#555] mt-4 lg:text-4xl" >{tituloPuesto}</h2>
         </article>
       </section>
 
-      <section className="proyectos">
-        <h2>Trabajos/Proyectos</h2>
-        <div className="contenedor-trabajos">
+      <section className="proyectos text-center mb-12 lg:m-4">
+        <h2 className="text-3xl color-[#006e9f] mb-8 lg:text-5xl" >Trabajos/Proyectos</h2>
+        <div className="flex flex-col items-center w-[80%] m-auto lg:justify-center lg:gap-[30px] lg:flex-row">
           {experiencia.map((proyecto, index) => {
             const isExpanded = expanded[index] || isDesktop;
             const shouldShowButton =
               proyecto.descripcion.length > MAX_CHARACTERS && !isDesktop;
 
             return (
-              <article key={index}>
-                <AnimatedImage
-                  src={proyecto.imagen}
-                  alt="imagen de trabajo realizado"
-                />
-                <h3>{proyecto.tituloOEmpresa}</h3>
-                <p className="fecha-trabajo">
+              <article 
+                className="box-border text-center bg-[#ffffffe9] rounded-md shadow-md p-4 m-2 hover:shadow-lg hover:bg-[#f0f0f0f2]"  
+                style={{transition:'background-color 0.3s ease, box-shadow 0.3s ease'}}
+                key={index}
+              >
+                {proyecto.imagen 
+                  ?
+                  <AnimatedImage
+                    src={proyecto.imagen}
+                    alt="imagen de trabajo realizado"
+                  />
+                  :
+                  <video
+                    src={proyecto.video}
+                    controls
+                    className="rounded-md mb-4 h-auto max-w-full"
+                  >
+                    Tu navegador no admite el elemento <code>video</code>.
+                  </video>
+                }
+                
+                <h3 className="text-xl color-[#006e9f] mb-2" >{proyecto.tituloOEmpresa}</h3>
+                <p className="color-[#555] text-base mb-2">
                   <strong>Inicio:</strong> {proyecto.inicio} <br />
                   <strong>Final:</strong> {proyecto.final}
                 </p>
                 <h4>{proyecto.puesto}</h4>
-                <p className="project-description">
+                <p className="lg:flex-grow lg:flex-shrink lg:basis-[46%] lg:overflow-visible lg:whitespace-normal lg:block">
                   {isExpanded
                     ? proyecto.descripcion
                     : `${proyecto.descripcion.substring(0, MAX_CHARACTERS)}...`}
@@ -75,14 +98,17 @@ const EquipoSection = ({ data }) => {
                 <div className="cajaDeBotones">
                   {shouldShowButton && (
                     <button
-                      className="toggle-btn"
+                      className="bg-[#006e9f] text-white border-none px-4 py-2 rounded-md cursor-pointer text-base m-5 hover:bg-[#003080] hover:brightness-90 lg:hidden"
+                      style={{transition:'background-color 0.3s ease'}}
                       onClick={() => toggleDescription(index)}
                     >
                       {isExpanded ? "Ver menos" : "Ver más"}
                     </button>
                   )}
                   {proyecto.urlTrabajo && (
-                    <button>
+                    <button
+                      className="bg-[#006e9f] text-white border-none px-4 py-2 rounded-md cursor-pointer text-base m-5 hover:bg-[#003080]"
+                    >
                       <a
                         href={proyecto.urlTrabajo}
                         target="_blank"
@@ -99,8 +125,12 @@ const EquipoSection = ({ data }) => {
         </div>
       </section>
 
-      <div className="volver-inicio">
-        <button onClick={() => (window.location.href = "/")}>
+      <div className="text-center mt-8">
+        <button 
+          className="bg-[#006e9f] text-white border-none px-4 py-2 rounded-md cursor-pointer text-base m-5"
+          style={{transition:'background-color 0.3s ease'}}
+          onClick={() => (window.location.href = "/")}
+        >
           Volver al Inicio
         </button>
       </div>

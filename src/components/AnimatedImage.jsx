@@ -10,7 +10,7 @@ const AnimatedImage = ({ src, alt }) => {
       initial={{ opacity: 0, y: 50 }} // Aparece desde abajo
       animate={{ opacity: 1, y: 0 }} // Finaliza en posición original
       transition={{ duration: 0.5, ease: "easeOut" }} // Suavidad de animación
-      className="animated-image"
+      className="animated-image max-w-full h-auto mb-4"
     />
   );
 };

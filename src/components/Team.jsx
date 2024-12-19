@@ -55,7 +55,7 @@ const Team = ({ dataTeam }) => {
               <img
                 src={profile.imagenPersona}
                 onClick={() => handleProfileClick(index)}
-                className={`rounded-full border-4 border-white shadow-lg object-cover cursor-pointer transition-all ${index === currentIndex ? "w-[200px]" : "w-[60px]"
+                className={`rounded-full border-4 border-white shadow-lg object-cover cursor-pointer transition-all ${index === currentIndex ? "w-[200px] h-[200px]" : "w-[60px] h-[60px]"
                   }`}
                 style={{
                   transform:
