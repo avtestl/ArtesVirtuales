@@ -74,12 +74,14 @@ const Team = ({ dataTeam }) => {
       <p className="mt-4 text-lg font-medium">
         {dataTeam.equipo[currentIndex].nombreCompleto}
       </p>
+
       <a
         href={`/equipo/${dataTeam.equipo[currentIndex].nombreUrl}`} // Redirige al perfil del integrante
         className="text-[#5D94C6] underline"
       >
         Ver más
       </a>
+>>>>>>>>> Temporary merge branch 2
       {/* Navegación con miniaturas */}
       <div className="flex justify-center flex-wrap gap-4 mt-6">
         {dataTeam.equipo.map((profile, index) => (

@@ -1,9 +1,19 @@
 .equipo-section {
-  background-image: url("/public/BanersArtesVirtuales/BackGroundImage.png");
+  background-image: url("/BanersArtesVirtuales/BackGroundImage.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+<<<<<<<<< Temporary merge branch 1
+=========
+.cajaDeH1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 18vh;
 }
 
 /* Presentación Section */
@@ -70,7 +80,6 @@
   color: #555;
   margin-bottom: 1rem;
 }
-
 .proyectos article button {
   background-color: #004aad;
   color: #fff;
@@ -105,9 +114,73 @@
 
 .toggle-btn:hover {
   background-color: #0056b3;
+  filter: brightness(0.9);
+}
+.fecha-trabajo {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
 }
 
-.hola{
-  background-color: red;
-  
+.volver-inicio {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.volver-inicio button {
+  background-color: #006e9f;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 12px;
+}
+
+.volver-inici  background-color: #003080;
+}
+
+
+/* Pantallas grandes */
+@media (min-width: 1024px) {
+  .presentacion-equipo h1 {
+    font-size: 3rem;
+  }
+
+  .presentacion-equipo video {
+    max-width: 70%;
+  }
+
+  .presentacion-equipo h2 {
+    font-size: 2.5rem;
+  }
+
+  .proyectos h2 {
+    font-size: 2.8rem;
+  }
+
+  .contenedor-trabajos {
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .proyectos article {
+    flex: 1 1 46%;
+    margin: 1rem;
+  }
+
+  .project-description {
+    display: block;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+  }
+
+  .toggle-btn {
+    display: none;
+  }
 }

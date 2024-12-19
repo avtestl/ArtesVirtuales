@@ -64,6 +64,7 @@
                   "bannerImagen": "/public/banners/daniel-banner.jpg",
                   "imagenPersona": "dani.png",
                   "portfolio": "https://www.portfolio-daniel.com",
+
                   "experiencia": [
                       {
                           "tituloOEmpresa": "Tech Solutions",
@@ -73,6 +74,7 @@
                           "puesto": "Frontend Developer",
                           "imagen": "tech-solutions.jpg",
                           "video": "tech-project.mp4",
+
                           "urlTrabajo": "https://www.techsolutions.com"
                       }
                   ]
@@ -91,7 +93,6 @@
                           "inicio": "2019",
                           "final": "2023",
                           "descripcion": "Implementación de APIs seguras y escalables.",
-                          "puesto": "Backend Developer",
                           "imagen": "server-hub.jpg",
                           "video": "server-project.mp4",
                           "urlTrabajo": "https://www.serverhub.com"
@@ -113,7 +114,7 @@
                     "final": "01-10-2024",
                     "descripcion": "Este proyecto fue desarrollado en colaboración con Arte Virtuales, trabajando en conjunto para satisfacer las necesidades de un cliente del sector de ropa industrial que requería el diseño y desarrollo de una landing page profesional para su emprendimiento. Para el diseño inicial, utilizamos Figma, asegurando una interfaz visualmente atractiva y funcional, adaptada a los requerimientos del cliente. En la fase de desarrollo, implementamos el framework Astro, lo que nos permitió crear un sitio web optimizado con una estructura sólida basada en HTML5. Participé tanto en tareas de frontend como de backend, garantizando una integración eficiente entre diseño y funcionalidad. El proyecto tuvo una duración de dos meses, desarrollándose entre agosto y septiembre. Finalmente, publicamos el sitio en un dominio adquirido y configurado mediante Hostinger, proporcionando al cliente un producto final accesible, profesional y listo para representar su marca en línea.",
                     "puesto": "Desarrollador Web",
-                    "imagen": "/mauricio/fotoDeTrabajoJB.png",
+                    "imagen": "/mauricio/fotoDeTrabajoJB.png",r
                     "video": "",
                     "urlTrabajo": "https://www.jbindustrialgroup.com/"
                   },
