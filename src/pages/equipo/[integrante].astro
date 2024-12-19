@@ -1,7 +1,9 @@
 ---
-import BasicLayout from '@/layouts/BasicLayout.astro';
-import EquipoSection from '@/components/equipo'
-import data from '@data'
+import data from '../../../data.json'
+import EquipoSection from '../../components/equipo'
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
 
 export function getStaticPaths() {
   const equipo = data.nuestroEquipo.equipo.map((elemento)=>{
@@ -20,6 +22,7 @@ const usuarioUrl = data.nuestroEquipo.equipo.find(user => user.nombreUrl === int
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
