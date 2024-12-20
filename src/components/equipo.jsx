@@ -46,7 +46,12 @@ const EquipoSection = ({ data }) => {
             </video>
           :
             <div className="flex justify-center" >
-              <img src={data.bannerImagen} className="rounded-full w-[300px] h-[300px]" />
+              <img 
+								src={data.bannerImagen} 
+								className="rounded-full w-[300px] h-[300px]" 
+								loading="lazy" 
+								alt={data.nombreCompleto} 
+							/>
             </div>
           }
           
@@ -55,8 +60,8 @@ const EquipoSection = ({ data }) => {
       </section>
 
       <section className="proyectos text-center mb-12 lg:m-4">
-        <h2 className="text-3xl color-[#006e9f] mb-8 lg:text-5xl" >Trabajos/Proyectos</h2>
-        <div className="flex flex-col items-center w-[80%] m-auto lg:justify-center lg:gap-[30px] lg:flex-row">
+        <h2 className="text-3xl text-[#006e9f] mb-16 mt-24 lg:text-5xl" >Trabajos/Proyectos</h2>
+        <div className="flex flex-wrap justify-center items-start m-auto lg:justify-center lg:gap-[30px]">
           {experiencia.map((proyecto, index) => {
             const isExpanded = expanded[index] || isDesktop;
             const shouldShowButton =
@@ -64,7 +69,7 @@ const EquipoSection = ({ data }) => {
 
             return (
               <article 
-                className="box-border text-center bg-[#ffffffe9] rounded-md shadow-md p-4 m-2 hover:shadow-lg hover:bg-[#f0f0f0f2]"  
+                className="flex flex-col items-center w-[450px] box-border text-center bg-[#ffffffe9] rounded-md shadow-md px-4 pt-2 pb-4 m-2 hover:shadow-lg hover:bg-[#f0f0f0f2]"  
                 style={{transition:'background-color 0.3s ease, box-shadow 0.3s ease'}}
                 key={index}
               >
@@ -78,7 +83,8 @@ const EquipoSection = ({ data }) => {
                   <video
                     src={proyecto.video}
                     controls
-                    className="rounded-md mb-4 h-auto max-w-full"
+                    style={{transform:'scale(1.08)'}}
+                    className="rounded-t-lg mb-4 max-w-full h-[250px]"
                   >
                     Tu navegador no admite el elemento <code>video</code>.
                   </video>
@@ -89,7 +95,7 @@ const EquipoSection = ({ data }) => {
                   <strong>Inicio:</strong> {proyecto.inicio} <br />
                   <strong>Final:</strong> {proyecto.final}
                 </p>
-                <h4>{proyecto.puesto}</h4>
+                <h4 className="font-semibold mb-4" >{proyecto.puesto}</h4>
                 <p className="lg:flex-grow lg:flex-shrink lg:basis-[46%] lg:overflow-visible lg:whitespace-normal lg:block">
                   {isExpanded
                     ? proyecto.descripcion

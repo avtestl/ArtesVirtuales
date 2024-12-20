@@ -8,13 +8,13 @@ const navbarItems = [
 
 const Footer = ({redesSociales}) => {
     return (
-        <footer className="bg-black text-white py-8 px-6 mt-32">
+        <footer className="bg-black text-white py-8 px-6">
             <div className="text-center">
                 <h3 className="text-lg font-medium mb-6">Mapa del sitio</h3>
                 <div className="flex justify-center flex-wrap font-light gap-5">
                     {navbarItems.map((item, i) => (
                         <div>
-                            <a href={ '#' + item.toLocaleLowerCase() } className=" font-normal mr-5 hover:underline">
+                            <a href={ '/#' + item.toLocaleLowerCase() } className=" font-normal mr-5 hover:underline">
                                 {item}
                             </a>
                             {(i + 1) < navbarItems.length && <span>|</span> }

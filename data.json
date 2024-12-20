@@ -57,34 +57,133 @@
           "titulo": "Nuestro Equipo",
           "equipo": [
               {
-                  "nombreCompleto": "Daniel Campos",
+                  "nombreCompleto": "Daniel Gabriel Campos",
                   "nombreUrl": "daniel-campos",
                   "tituloPuesto": "Full Stack Developer",
                   "videoPresentacion": "",
-                  "bannerImagen": "/dani/bannerImagen.png",
-                  "imagenPersona": "dani.png",
-                  "portfolio": "https://www.portfolio-daniel.com",
-
+                  "bannerImagen": "/dani/dani.jpg",
+                  "imagenPersona": "/dani/dani.jpg",
+                  "portfolio": "",
                   "experiencia": [
                     {
-                      "tituloOEmpresa": "Tech Solutions",
-                      "inicio": "2020",
-                      "final": "2023",
-                      "descripcion": "Desarrollo de interfaces modernas y responsivas.",
-                      "puesto": "Frontend Developer",
-                      "imagen": "",
-                      "video": "/dani/videoPrueba.mp4",
+                      "tituloOEmpresa": "Artes Virtuales",
+                      "inicio": "01-11-2024",
+                      "final": "16-12-2024",
+                      "descripcion": "Desarrollo de Pagina web para nuestra consultora, fue creada junto a los programadores del equipo. La tecnologias usadas fueron astro con tailwindcss",
+                      "puesto": "Full Stack Developer",
+                      "imagen": "/dani/artesVirtuales.png",
+                      "video": "",
                       "urlTrabajo": ""
                     },
                     {
-                      "tituloOEmpresa": "Tech Solutions",
-                      "inicio": "2020",
-                      "final": "2023",
-                      "descripcion": "Desarrollo de interfaces modernas y responsivas.",
-                      "puesto": "Frontend Developer",
+                      "tituloOEmpresa": "Mifinka",
+                      "inicio": "01-5-2023",
+                      "final": "01-03-2024",
+                      "descripcion": "Desarrollé de forma independiente un CRM personalizado para la empresa Mifinka, adaptado a las necesidades específicas de sus empresas colaboradoras. Me encargué del diseño, desarrollo backend y frontend, enfocándome en una interfaz intuitiva, navegación fácil y experiencia de usuario eficiente. Implementé funcionalidades como gestión de clientes, seguimiento de ventas y generación de informes, utilizando tecnologías modernas para garantizar seguridad y rendimiento óptimo. Aseguré compatibilidad multiplataforma, permitiendo el acceso desde cualquier dispositivo y ubicación.",
+                      "puesto": "Full Stack Developer",
                       "imagen": "",
-                      "video": "/dani/videoPrueba.mp4",
+                      "video": "/dani/crm.mp4",
                       "urlTrabajo": ""
+                    },
+                    {
+                      "tituloOEmpresa": "Okana",
+                      "inicio": "2024",
+                      "final": "2024",
+                      "descripcion": "Modificacion de la pagina web de la empresa Okana, se modifico el diseño y de funcionalidades a la pagina web, mas puesta en produccion.",
+                      "puesto": "Full Stack Developer",
+                      "imagen": "/dani/okana.png",
+                      "video": "",
+                      "urlTrabajo": "https://pedido.ahaweltulum.com/"
+                    },
+                    {
+                      "tituloOEmpresa": "Orion",
+                      "inicio": "2023",
+                      "final": "2023",
+                      "descripcion": "Desarrollo de pagina web landing page para la empresa Orion, se desarrollo con tecnologias modernas y responsivas.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "/dani/orion.png",
+                      "video": "",
+                      "urlTrabajo": "https://orionctz.com/"
+                    },
+                    {
+                      "tituloOEmpresa": "Weather api",
+                      "inicio": "2023",
+                      "final": "2023",
+                      "descripcion": "(Frontend Mentor) Desarrollo de pagina weather api con api del clima, practica.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "/dani/weatherApi.png",
+                      "video": "",
+                      "urlTrabajo": "https://weather-api-dani7u-g.vercel.app/"
+                    },
+                    {
+                      "tituloOEmpresa": "Manage Landing",
+                      "inicio": "2023",
+                      "final": "2023",
+                      "descripcion": "(Frontend Mentor) Desarrollo de pagina landing page practica.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "/dani/manageLanding.png",
+                      "video": "",
+                      "urlTrabajo": "https://trolerogame.github.io/manage-landing-page-master-Dani7uG/"
+                    },
+                    {
+                      "tituloOEmpresa": "Todo App",
+                      "inicio": "2023",
+                      "final": "2023",
+                      "descripcion": "(Frontend Mentor) Desarrollo de pagina todo app practica.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "/dani/todoApp.png",
+                      "video": "",
+                      "urlTrabajo": "https://trolerogame.github.io/todo-app-main_Dani7uG/"
+                    },
+                    {
+                      "tituloOEmpresa": "Ip Address Tracker",
+                      "inicio": "2023",
+                      "final": "2023",
+                      "descripcion": "(Frontend Mentor) Desarrollo de pagina ip address tracker practica.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "/dani/ipAdressTracker.png",
+                      "video": "",
+                      "urlTrabajo": "https://trolerogame.github.io/IP-Address-Tracker_dani7ug/"
+                    },
+                    {
+                      "tituloOEmpresa": "Bookmark Landing",
+                      "inicio": "2023",
+                      "final": "2023",
+                      "descripcion": "(Frontend Mentor) Desarrollo de pagina bookmark landing practica.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "/dani/bookmarkLanding.png",
+                      "video": "",
+                      "urlTrabajo": "https://trolerogame.github.io/bookmark-landing-page-master-dani7ug/"
+                    },
+                    {
+                      "tituloOEmpresa": "Static job listings",
+                      "inicio": "2023",
+                      "final": "2023",
+                      "descripcion": "(Frontend Mentor) Desarrollo de pagina static job listings practica.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "/dani/staticJobListinings.png",
+                      "video": "",
+                      "urlTrabajo": "https://trolerogame.github.io/static-job-listings-master-Dani7uG/"
+                    },
+                    {
+                      "tituloOEmpresa": "Country Quiz",
+                      "inicio": "2023",
+                      "final": "2023",
+                      "descripcion": "(Frontend Mentor) Desarrollo de pagina country quiz practica.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "/dani/countryQuiz.png",
+                      "video": "",
+                      "urlTrabajo": "https://trolerogame.github.io/country_quiz_Dani7uG/"
+                    },
+                    {
+                      "tituloOEmpresa": "Country Quiz",
+                      "inicio": "2023",
+                      "final": "2023",
+                      "descripcion": "(Frontend Mentor) Desarrollo de pagina country quiz practica.",
+                      "puesto": "Frontend Developer",
+                      "imagen": "/dani/easybankLanding.jpeg",
+                      "video": "",
+                      "urlTrabajo": "https://trolerogame.github.io/country_quiz_Dani7uG/"
                     }
                   ]
               },
@@ -230,7 +329,7 @@
         "distribuidoras": [
             {
                 "imagen": "/handy.png",
-                "url": "",
+                "url": "https://www.handy.la/",
                 "alt":"handy"
             },
             {
