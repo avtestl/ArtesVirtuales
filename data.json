@@ -187,26 +187,44 @@
                     }
                   ]
               },
-              {
-                  "nombreCompleto": "Carlos Campos",
-                  "nombreUrl": "carlos-campos",
-                  "tituloPuesto": "Full Stack Developer",
-                  "videoPresentacion": "",
-                  "bannerImagen": "",
-                  "imagenPersona": "carlos.png",
-                  "portfolio": "https://www.portfolio-carlos.com",
-                  "experiencia": [
-                      {
-                          "tituloOEmpresa": "Server Hub",
-                          "inicio": "2019",
-                          "final": "2023",
-                          "descripcion": "Implementación de APIs seguras y escalables.",
-                          "imagen": "",
-                          "video": "",
-                          "urlTrabajo": "https://www.serverhub.com"
-                      }
-                  ]
-              },
+							{
+								"nombreCompleto": "Carlos Campos",
+								"nombreUrl": "carlos-campos",
+								"tituloPuesto": "Full Stack Developer",
+								"videoPresentacion": "",
+								"bannerImagen": "",
+								"imagenPersona": "/carlos/carlos.jpg",
+								"portfolio": "",
+								"experiencia": [
+										{
+												"tituloOEmpresa": "Wetune",
+												"inicio": "24-09-2024",
+												"final": "05-10-2024",
+												"descripcion": "Aplicación de escritorio para la gestión y reproducción de música que permite obtener contenido directamente desde YouTube. Destaca por su capacidad de descarga para reproducción sin conexión y una interfaz intuitiva que facilita la gestión de la biblioteca musical.",
+												"imagen": "",
+												"video": "/carlos/wetune.mp4",
+												"urlTrabajo": ""
+										},
+										{
+												"tituloOEmpresa": "WalkJS",
+												"inicio": "28-06-2024",
+												"final": "24-07-2024",
+												"descripcion": "Runner ligero y gratuito para JavaScript/TypeScript que optimiza el flujo de trabajo de desarrollo. Incluye características esenciales como soporte para múltiples pestañas y personalización de temas, proporcionando una herramienta eficiente para la ejecución y prueba de código.",
+												"imagen": "/carlos/walkjs.png",
+												"video": "",
+												"urlTrabajo": ""
+										},
+										{
+												"tituloOEmpresa": "Buscaminas",
+												"inicio": "01-08-2023",
+												"final": "08-08-2023",
+												"descripcion": "Reimaginación moderna del clásico juego Buscaminas con un diseño minimalista en tema oscuro que mejora la experiencia visual. La aplicación mantiene la esencia del juego original mientras incorpora una interfaz de usuario intuitiva y contemporánea.",
+												"imagen": "/carlos/buscaminas.png",
+												"video": "",
+												"urlTrabajo": "minesweeper-karlitosd.netlify.app"
+										}
+								]
+							},
               {
                 "nombreCompleto": "Mauricio Abel Cuellar",
                 "nombreUrl": "mauricio-cuellar",
