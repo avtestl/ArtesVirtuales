@@ -34,23 +34,11 @@
         "titulo":"Testimonios",
         "testimonios":[
             {
-                "nombreCompleto": "Martin Fierro",
-                "testimonio":"Lorem ipsum ; inceptos luctus inceptos. Congue parturient eu per duis condimentum mauris nullam aptent mi. Vivamus fermentum curabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laoreet id massa mi hendrerit.",
-                "fecha": "12/03/77",
-                "imagenPersona":"https://avatar.iran.liara.run/9"
-            },
-            {
-              "nombreCompleto": "Martin Fierro",
-              "testimonio":"Lorem ipsum ; inceptos luctus inceptos. Congue parturient eu per duis condimentum mauris nullam aptent mi. Vivamus fermentum curabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laoreet id massa mi hendrerit.",
-              "fecha": "12/03/77",
-              "imagenPersona":"https://avatar.iran.liara.run/9"
-          },
-          {
-            "nombreCompleto": "Martin Fierro",
-            "testimonio":"Lorem ipsum ; inceptos luctus inceptos. Congue parturient eu per duis condimentum mauris nullam aptent mi. Vivamus fermentum curabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laocurabitur laoreet id massa mi hendrerit.",
-            "fecha": "12/03/77",
-            "imagenPersona":"https://avatar.iran.liara.run/9"
-        }
+                "nombreCompleto": "jbindustrialgroup",
+                "testimonio":"“Gracias a ARTES VIRTUALES nuestra presencia en línea ha crecido exponencialmente. Su equipo es increíblemente profesional y siempre están dispuestos a ayudar.",
+                "fecha": "12/03/2024",
+                "imagenPersona":"/mauricio/fotoDeTrabajoJB.png"
+            }
         ]
     },
       "nuestroEquipo": {
@@ -193,7 +181,7 @@
 								"nombreUrl": "carlos-campos",
 								"tituloPuesto": "Full Stack Developer",
 								"videoPresentacion": "",
-								"bannerImagen": "",
+								"bannerImagen": "../carlos/carlos.jpg",
 								"imagenPersona": "/carlos/carlos.jpg",
 								"portfolio": "",
 								"experiencia": [
@@ -240,11 +228,11 @@
 										"tituloOEmpresa": "Artes Virtuales",
 										"inicio": "01-11-2024",
 										"final": "16-12-2024",
-										"descripcion": "Desarrollo de Pagina web para nuestra consultora, fue creada junto a los programadores del equipo. La tecnologias usadas fueron astro con tailwindcss",
+										"descripcion": "El equipo de desarrolladores de Artes Virtuales, compuesto por Mauricio Abel Cuellar, Daniel Campos y Carlos Campos, se ha enfocado en crear una experiencia de arte virtual utilizando un enfoque full-stack. A través de tecnologías como Astro y JavaScript, han diseñado y desarrollado una plataforma interactiva y dinámica, que integra tanto el front-end como el back-end para ofrecer una experiencia inmersiva. Cada miembro del equipo ha aportado su experiencia en áreas clave como el desarrollo de backend, la creación de interfaces de usuario y la arquitectura del sistema, asegurando una presentación fluida y de alta calidad del contenido artístico virtual. Su trabajo conjunto ha dado forma a un proyecto innovador, ofreciendo un espacio digital donde el arte y la tecnología se encuentran para explorar nuevas formas de creatividad.",
 										"puesto": "Full Stack Developer",
 										"imagen": "/dani/artesVirtuales.png",
 										"video": "",
-										"urlTrabajo": ""
+										"urlTrabajo": "https://artes-virtuales.vercel.app/"
 									},
                   {
                     "tituloOEmpresa": "Creacion del sitio JB Industrial Group",
@@ -265,6 +253,16 @@
                     "imagen": "/mauricio/UpsEstable.png",
                     "video": "",
                     "urlTrabajo": "https://github.com/Mubel77/Comision2023-Grupo8-Upstable"
+                  },
+									{
+                    "tituloOEmpresa": "Digital House",
+                    "inicio": "04-01-2023",
+                    "final": "04-20-2024",
+                    "descripcion": "Objetivo: Ahora que ya tenemos conocimiento del manejo de APIs y que hemos tocado una y otra vez los estados de componente, ha llegado el momento de trabajar con los Hooks de React. Puntualmente en esta ejercitación vamos a estar trabajando con useState, useEffect y useRef.",
+                    "puesto": "Desarrollador Web",
+                    "imagen": "/mauricio/A-fondo-con-los-Hooks.png",
+                    "video": "",
+                    "urlTrabajo": "https://a-fondo-con-los-hooks.vercel.app/"
                   }
                 ]
               },                       
@@ -284,7 +282,7 @@
 										"final": "2023",
 										"descripcion": "Desarrollo de proyectos comerciales, franquicias, desarrollo de marca, trabajo bajo objetivos, manejo y supervisión de equipos, control de calidad.",
 										"puesto": "Project Manager",
-										"imagen": "",
+										"imagen": "../willian/theRoxy.png",
 										"video": "",
 										"urlTrabajo": ""
 									},
@@ -294,7 +292,7 @@
 										"final": "2020",
 										"descripcion": "Desarrollo y evaluación de clientes, planificación comercial, supervisor de productos, manejo de equipos comerciales, procesos de calidad.",
 										"puesto": "Project Manager",
-										"imagen": "",
+										"imagen": "../willian/villaMadero.jpg",
 										"video": "",
 										"urlTrabajo": ""
 									},
@@ -304,7 +302,7 @@
 										"final": "2015",
 										"descripcion": "Desarrollar, implementar y supervisar las estrategias de la marca, organización de eventos, lanzamientos de nuevos modelos, paseos club rider Ducati.",
 										"puesto": "Gerente de Marketing",
-										"imagen": "",
+										"imagen": "../willian/ducati.png",
 										"video": "",
 										"urlTrabajo": ""
 									},
@@ -314,7 +312,7 @@
 										"final": "2009",
 										"descripcion": "Visitador médico línea Ultrasonido (Ginecología).",
 										"puesto": "Visitador Médico",
-										"imagen": "",
+										"imagen": "../willian/generalElectric.png",
 										"video": "",
 										"urlTrabajo": ""
 									}
@@ -325,21 +323,11 @@
 								"nombreUrl": "Dario-Manzilla",
 								"tituloPuesto": "UI/UX Designer",
 								"videoPresentacion": "",
-								"bannerImagen": "../carlos.png",
-								"imagenPersona": "carlos.png",
+								"bannerImagen": "../dario/dario.jpeg",
+								"imagenPersona": "dario/dario.jpeg",
 								"portfolio": "https://www.portfolio-luis.com",
 								"sobreMi": "Soy un diseñador UI/UX apasionado por crear experiencias digitales innovadoras y funcionales. Me especializo en diseñar interfaces que combinan estética, usabilidad e impacto visual. He trabajado en proyectos empresariales, comerciales y de emprendimiento propio, desarrollando soluciones prácticas para aplicaciones móviles, e-commerce y páginas web. Mi objetivo es contribuir al éxito digital de las empresas mediante diseños que inspiran confianza y generan resultados.",
 								"experiencia": [
-									{
-										"tituloOEmpresa": "Agile Works",
-										"inicio": "2021",
-										"final": "2023",
-										"descripcion": "Gestión de proyectos tecnológicos y liderazgos de equipos.",
-										"puesto": "Diseñador web",
-										"imagen": "",
-										"video": "",
-										"urlTrabajo": "https://www.agileworks.com"
-									},
 									{
 										"tituloOEmpresa": "Diseño de página e-commerce para 'Orion CTZ'",
 										"inicio": "01/02/2023",
@@ -373,14 +361,14 @@
 								"portfolio": "",
 								"experiencia": [
 									{
-										"tituloOEmpresa": "Test Labs",
+										"tituloOEmpresa": "Control de expensas para consorcio de monobloques",
 										"inicio": "2019",
 										"final": "2023",
 										"descripcion": "Ejecución de pruebas funcionales y automatizadas. Desarrollo de herramientas para gestión de datos personalizados, visualización gráfica y generación de reportes exportables en PDF, optimizando procesos de análisis.",
 										"puesto": "Community Manager",
-										"imagen": "test-labs.jpg",
+										"imagen": "../jorge/reporteConsorcio.png",
 										"video": "",
-										"urlTrabajo": "https://example.com/test-labs"
+										"urlTrabajo": ""
 									},
 									{
 										"tituloOEmpresa": "Proyecto Presupuestos",
@@ -388,9 +376,9 @@
 										"final": "2022",
 										"descripcion": "Creación de un sistema eficiente para generar presupuestos, con funcionalidades como tablas dinámicas, selección de productos, integración de listas de precios y exportación de presupuestos en PDF.",
 										"puesto": "Desarrollador de Sistemas",
-										"imagen": "presupuestos.jpg",
-										"video": "presupuestos.mp4",
-										"urlTrabajo": "https://example.com/presupuestos"
+										"imagen": "../jorge/presupuesto.png",
+										"video": "",
+										"urlTrabajo": ""
 									},
 									{
 										"tituloOEmpresa": "Generador de Catálogos",
@@ -398,9 +386,9 @@
 										"final": "2021",
 										"descripcion": "Diseño de un sistema profesional de generación de catálogos basado en la integración de datos de archivos existentes, validación de códigos e imágenes, y generación de catálogos en formato PDF.",
 										"puesto": "Analista de Sistemas",
-										"imagen": "catalogos.jpg",
-										"video": "catalogos.mp4",
-										"urlTrabajo": "https://example.com/catalogos"
+										"imagen": "../jorge/catalogo.png",
+										"video": "",
+										"urlTrabajo": ""
 									},
 									{
 										"tituloOEmpresa": "Ficha de Seguimiento",
@@ -408,9 +396,9 @@
 										"final": "2023",
 										"descripcion": "Desarrollo de una herramienta para la gestión académica de estudiantes, con funcionalidades de registro, actualización de datos, generación de reportes en PDF y comandos para facilitar la administración educativa.",
 										"puesto": "Desarrollador de Soluciones Educativas",
-										"imagen": "seguimiento.jpg",
-										"video": "seguimiento.mp4",
-										"urlTrabajo": "https://example.com/seguimiento"
+										"imagen": "../jorge/educativo.png",
+										"video": "",
+										"urlTrabajo": ""
 									}
 								]
 							}
@@ -460,7 +448,7 @@
     "redesSociales":{
       "instagram":"",
       "email": "",
-      "whatsapp": "https://api.whatsapp.com/send?phone=541157245467",
+      "whatsapp": "https://api.whatsapp.com/send?phone=5491127626307",
       "linkedIn": ""
     }
 }
