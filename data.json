@@ -60,6 +60,7 @@
                   "nombreCompleto": "Daniel Gabriel Campos",
                   "nombreUrl": "daniel-campos",
                   "tituloPuesto": "Full Stack Developer",
+									"sobreMi":"Hola, soy Daniel Campos, desarrollador Full Stack en Artes Virtuales. Me especializo en el stack MERN y disfruto creando aplicaciones funcionales e intuitivas. Soy apasionado por la informática y siempre busco aprender algo nuevo. En mi tiempo libre, me encanta jugar videojuegos, ver series y pasar tiempo con mis amigos, lo que me ayuda a equilibrar mi creatividad y mi día a día.",
                   "videoPresentacion": "",
                   "bannerImagen": "/dani/dani.jpg",
                   "imagenPersona": "/dani/dani.jpg",
@@ -210,12 +211,23 @@
               {
                 "nombreCompleto": "Mauricio Abel Cuellar",
                 "nombreUrl": "mauricio-cuellar",
-                "tituloPuesto": "Full Stack Developer",
-                "videoPresentacion": "/videos/CuellarMauricioAbel.mp4",
-                "bannerImagen": "",
+                "tituloPuesto": "Project Manager",
+								"sobreMi":"Soy un desarrollador web Full Stack apasionado por la tecnología y el aprendizaje continuo. Actualmente estoy cursando la Licenciatura en Analista en Sistemas, lo que complementa mi formación técnica en desarrollo web. Como Project Manager, lidero la planificación y ejecución de proyectos, asegurando que cada iniciativa esté alineada con los objetivos comerciales y las mejores prácticas del marketing digital. Además, formo parte del equipo de desarrollo web, contribuyendo a crear soluciones innovadoras que impulsan el crecimiento de nuestros clientes. Mi objetivo es combinar estrategia y tecnología para ofrecer resultados efectivos y de alto impacto.",
+                "videoPresentacion": "",
+                "bannerImagen": "../mauricio/fotoMauricio.png",
                 "imagenPersona": "mauricio/fotoMauricio.png",
                 "portfolio": "",
                 "experiencia": [
+									{
+										"tituloOEmpresa": "Artes Virtuales",
+										"inicio": "01-11-2024",
+										"final": "16-12-2024",
+										"descripcion": "Desarrollo de Pagina web para nuestra consultora, fue creada junto a los programadores del equipo. La tecnologias usadas fueron astro con tailwindcss",
+										"puesto": "Full Stack Developer",
+										"imagen": "/dani/artesVirtuales.png",
+										"video": "",
+										"urlTrabajo": ""
+									},
                   {
                     "tituloOEmpresa": "Creacion del sitio JB Industrial Group",
                     "inicio": "01-08-2024",
@@ -226,102 +238,165 @@
                     "video": "",
                     "urlTrabajo": "https://www.jbindustrialgroup.com/"
                   },
-                  {
-                    "tituloOEmpresa": "Creacion del sitio JB Industrial Group",
-                    "inicio": "01-08-2024",
-                    "final": "01-10-2024",
-                    "descripcion": "Este proyecto fue desarrollado en colaboración con Arte Virtuales, trabajando en conjunto para satisfacer las necesidades de un cliente del sector de ropa industrial que requería el diseño y desarrollo de una landing page profesional para su emprendimiento. Para el diseño inicial, utilizamos Figma, asegurando una interfaz visualmente atractiva y funcional, adaptada a los requerimientos del cliente. En la fase de desarrollo, implementamos el framework Astro, lo que nos permitió crear un sitio web optimizado con una estructura sólida basada en HTML5. Participé tanto en tareas de frontend como de backend, garantizando una integración eficiente entre diseño y funcionalidad. El proyecto tuvo una duración de dos meses, desarrollándose entre agosto y septiembre. Finalmente, publicamos el sitio en un dominio adquirido y configurado mediante Hostinger, proporcionando al cliente un producto final accesible, profesional y listo para representar su marca en línea.",
+									{
+                    "tituloOEmpresa": "Digital House",
+                    "inicio": "04-01-2023",
+                    "final": "04-20-2024",
+                    "descripcion": "UPStables E-commerce ofrece en su variedad estabilizadores electronicos de tension y UPS (Uninterruptable Power Supply). Los productos que ofrece nuestro sitio son ideales para brindar una tension estabilizada en su salida (220/380 Volts) independientemente de los valores en la entrada de la tension electrica. De esta manera, nustra oferta se adapta a las necesidades de una red electrica tanto monofasica como trifasica, permitiendo cubrir las necesidades de un domicilio particular, un negocio, edificios, empresas y mas. Contamos con asistencia tecnica profesional a fin de evaluar la demanda del cliente y brindar la mejor opcion de compra que se adapte a esas necesidades. En el sitio el cliente encontrara toda la informacion necesaria acerca de nuestros productos y cotizaciones al dia. Tambien estaran nuestros canales de contacto para comunicacion directa con profesionales para asistencia tecnica y enlaces directos a nuestras redes sociales. Para una mejor experiencia de compra invitamos a nuestros clientes a registrarse en el sitio y recibir nuestras ultimas novedades. El grupo de desarrolladores web de UPStables E-commerce se compone de cuatro colaboradores: Santiago Barrios, Emmiliano Ferreyra y Cuellar Mauricio.",
                     "puesto": "Desarrollador Web",
-                    "imagen": "/mauricio/fotoDeTrabajoJB.png",
+                    "imagen": "/mauricio/UpsEstable.png",
                     "video": "",
-                    "urlTrabajo": "https://www.jbindustrialgroup.com/"
+                    "urlTrabajo": "https://github.com/Mubel77/Comision2023-Grupo8-Upstable"
                   }
                 ]
               },                       
+							{
+								"nombreCompleto": "WILLIAM PINZON",
+								"nombreUrl": "WILLIAM-PINZON",
+								"tituloPuesto": "Marketing Digital",
+								"sobreMi": "En Artes Virtuales, me desempeño como especialista en marketing digital. Mi trabajo se enfoca en desarrollar y ejecutar estrategias innovadoras que posicionen la marca de manera efectiva en el entorno digital. A través del análisis de mercado y la creación de campañas publicitarias personalizadas, identifico las necesidades de nuestro público objetivo y aprovecho las oportunidades para fortalecer nuestra presencia online. Gestiono la identidad de la marca asegurándome de que cada proyecto refleje los valores y objetivos de Artes Virtuales. Utilizo herramientas como redes sociales, marketing de contenidos y estrategias de SEO para maximizar el alcance de nuestras iniciativas. Mi compromiso con la planificación, la organización y el trabajo en equipo me permite garantizar resultados que impacten de manera positiva en nuestra comunidad digital.",
+								"videoPresentacion": "../willian/willianVideo.mp4",
+								"bannerImagen": "",
+								"imagenPersona": "willian/willian.jpeg",
+								"portfolio": "https://www.portfolio-sofia.com",
+								"experiencia": [
+									{
+										"tituloOEmpresa": "THE ROXY",
+										"inicio": "2021",
+										"final": "2023",
+										"descripcion": "Desarrollo de proyectos comerciales, franquicias, desarrollo de marca, trabajo bajo objetivos, manejo y supervisión de equipos, control de calidad.",
+										"puesto": "Project Manager",
+										"imagen": "",
+										"video": "",
+										"urlTrabajo": ""
+									},
+									{
+										"tituloOEmpresa": "VILLA MADERO",
+										"inicio": "2017",
+										"final": "2020",
+										"descripcion": "Desarrollo y evaluación de clientes, planificación comercial, supervisor de productos, manejo de equipos comerciales, procesos de calidad.",
+										"puesto": "Project Manager",
+										"imagen": "",
+										"video": "",
+										"urlTrabajo": ""
+									},
+									{
+										"tituloOEmpresa": "AXUM SISTEMAS",
+										"inicio": "2009",
+										"final": "2015",
+										"descripcion": "Desarrollar, implementar y supervisar las estrategias de la marca, organización de eventos, lanzamientos de nuevos modelos, paseos club rider Ducati.",
+										"puesto": "Gerente de Marketing",
+										"imagen": "",
+										"video": "",
+										"urlTrabajo": ""
+									},
+									{
+										"tituloOEmpresa": "GENERAL ELECTRIC - ECUADOR",
+										"inicio": "2006",
+										"final": "2009",
+										"descripcion": "Visitador médico línea Ultrasonido (Ginecología).",
+										"puesto": "Visitador Médico",
+										"imagen": "",
+										"video": "",
+										"urlTrabajo": ""
+									}
+								]
+							},
               {
-                  "nombreCompleto": "WILLIAM PINZON",
-                  "nombreUrl": "WILLIAM-PINZON",
-                  "tituloPuesto": "Marketing Digital",
-                  "videoPresentacion": "",
-                  "bannerImagen": "",
-                  "imagenPersona": "willian/willian.jpeg",
-                  "portfolio": "https://www.portfolio-sofia.com",
-                  "experiencia": [
-                      {
-                          "tituloOEmpresa": "Creative Studio",
-                          "inicio": "2018",
-                          "final": "2022",
-                          "descripcion": "Diseño de experiencias de usuario centradas en la accesibilidad.",
-                          "puesto": "UI/UX Designer",
-                          "imagen": "",
-                          "video": "",
-                          "urlTrabajo": "https://www.creativestudio.com"
-                      }
-                  ]
-              },
+								"nombreCompleto": "Dario Manzilla",
+								"nombreUrl": "Dario-Manzilla",
+								"tituloPuesto": "UI/UX Designer",
+								"videoPresentacion": "",
+								"bannerImagen": "../carlos.png",
+								"imagenPersona": "carlos.png",
+								"portfolio": "https://www.portfolio-luis.com",
+								"sobreMi": "Soy un diseñador UI/UX apasionado por crear experiencias digitales innovadoras y funcionales. Me especializo en diseñar interfaces que combinan estética, usabilidad e impacto visual. He trabajado en proyectos empresariales, comerciales y de emprendimiento propio, desarrollando soluciones prácticas para aplicaciones móviles, e-commerce y páginas web. Mi objetivo es contribuir al éxito digital de las empresas mediante diseños que inspiran confianza y generan resultados.",
+								"experiencia": [
+									{
+										"tituloOEmpresa": "Agile Works",
+										"inicio": "2021",
+										"final": "2023",
+										"descripcion": "Gestión de proyectos tecnológicos y liderazgos de equipos.",
+										"puesto": "Diseñador web",
+										"imagen": "",
+										"video": "",
+										"urlTrabajo": "https://www.agileworks.com"
+									},
+									{
+										"tituloOEmpresa": "Diseño de página e-commerce para 'Orion CTZ'",
+										"inicio": "01/02/2023",
+										"final": "01/12/2023",
+										"descripcion": "Diseñé una página e-commerce enfocada en la presentación profesional de productos, con navegación clara, un hero principal destacado y una cuadrícula interactiva que muestra los productos con detalles en un modal. Este proyecto mejoró la usabilidad del sitio web y aumentó la interacción de los usuarios.",
+										"puesto": "",
+										"imagen": "../dario/orion.png",
+										"video": "",
+										"urlTrabajo": "https://orionctz.com/"
+									},
+									{
+										"tituloOEmpresa": "Página web para mi emprendimiento 'Artes Virtuales'",
+										"inicio": "01/02/2024",
+										"final": "01/12/2023",
+										"descripcion": "Desarrollé una página web profesional que representa mi emprendimiento de diseño web. Incluye una estructura responsiva, una sección de servicios visualmente atractiva, una propuesta de valor clara y un carrusel interactivo del equipo. Este diseño fortaleció la presencia digital del emprendimiento, ofreciendo una experiencia visual atractiva.",
+										"puesto": "",
+										"imagen": "/dani/artesVirtuales.png",
+										"video": "",
+										"urlTrabajo": "https://artesvirtuales.com/"
+									}
+								]
+							},
               {
-                  "nombreCompleto": "Dario Manzilla",
-                  "nombreUrl": "Dario-Manzilla",
-                  "tituloPuesto": "UI/UX Designer",
-                  "videoPresentacion": "",
-                  "bannerImagen": "",
-                  "imagenPersona": "carlos.png",
-                  "portfolio": "https://www.portfolio-luis.com",
-                  "experiencia": [
-                      {
-                          "tituloOEmpresa": "Agile Works",
-                          "inicio": "2017",
-                          "final": "2023",
-                          "descripcion": "Gestión de proyectos tecnológicos y liderazgos de equipos.",
-                          "puesto": "Diseñador web",
-                          "imagen": "",
-                          "video": "",
-                          "urlTrabajo": "https://www.agileworks.com"
-                      }
-                  ]
-              },
-              {
-                  "nombreCompleto": "Jorge",
-                  "nombreUrl": "Jorge",
-                  "tituloPuesto": "Herramienta Google",
-                  "videoPresentacion": "",
-                  "bannerImagen": "",
-                  "imagenPersona": "carlos.png",
-                  "portfolio": "https://www.portfolio-elena.com",
-                  "experiencia": [
-                      {
-                          "tituloOEmpresa": "Test Labs",
-                          "inicio": "2019",
-                          "final": "2023",
-                          "descripcion": "Ejecución de pruebas funcionales y automatizadas.",
-                          "puesto": "Comunity Manager",
-                          "imagen": "test-labs.jpg",
-                          "video": "test-project.mp4",
-                          "urlTrabajo": "https://www.testlabs.com"
-                      }
-                  ]
-              },
-              {
-                  "nombreCompleto": "Katerin",
-                  "nombreUrl": "Katerin",
-                  "tituloPuesto": "DevOps Engineer",
-                  "videoPresentacion": "",
-                  "bannerImagen": "",
-                  "imagenPersona": "mauricio.png",
-                  "portfolio": "https://www.portfolio-juan.com",
-                  "experiencia": [
-                      {
-                          "tituloOEmpresa": "Cloudify",
-                          "inicio": "2020",
-                          "final": "2023",
-                          "descripcion": "Automatización de procesos en entornos de producción.",
-                          "puesto": "DevOps Engineer",
-                          "imagen": "",
-                          "video": "",
-                          "urlTrabajo": "https://www.cloudify.com"
-                      }
-                  ]
-              }
+								"nombreCompleto": "Jorge",
+								"nombreUrl": "Jorge",
+								"tituloPuesto": "Herramienta Google",
+								"sobreMi":"Profesional con amplia experiencia en la integración, automatización y desarrollo de sistemas basados en las herramientas de Google. Mis conocimientos abarcan desde la creación de conexiones avanzadas entre hojas de cálculo y otras aplicaciones, hasta la implementación de inteligencia artificial en procesos empresariales para optimizar tareas y mejorar la toma de decisiones.",
+								"videoPresentacion": "",
+								"bannerImagen": "../jorge/Jorge.jpeg",
+								"imagenPersona": "/jorge/Jorge.jpeg",
+								"portfolio": "",
+								"experiencia": [
+									{
+										"tituloOEmpresa": "Test Labs",
+										"inicio": "2019",
+										"final": "2023",
+										"descripcion": "Ejecución de pruebas funcionales y automatizadas. Desarrollo de herramientas para gestión de datos personalizados, visualización gráfica y generación de reportes exportables en PDF, optimizando procesos de análisis.",
+										"puesto": "Community Manager",
+										"imagen": "test-labs.jpg",
+										"video": "",
+										"urlTrabajo": "https://example.com/test-labs"
+									},
+									{
+										"tituloOEmpresa": "Proyecto Presupuestos",
+										"inicio": "2021",
+										"final": "2022",
+										"descripcion": "Creación de un sistema eficiente para generar presupuestos, con funcionalidades como tablas dinámicas, selección de productos, integración de listas de precios y exportación de presupuestos en PDF.",
+										"puesto": "Desarrollador de Sistemas",
+										"imagen": "presupuestos.jpg",
+										"video": "presupuestos.mp4",
+										"urlTrabajo": "https://example.com/presupuestos"
+									},
+									{
+										"tituloOEmpresa": "Generador de Catálogos",
+										"inicio": "2020",
+										"final": "2021",
+										"descripcion": "Diseño de un sistema profesional de generación de catálogos basado en la integración de datos de archivos existentes, validación de códigos e imágenes, y generación de catálogos en formato PDF.",
+										"puesto": "Analista de Sistemas",
+										"imagen": "catalogos.jpg",
+										"video": "catalogos.mp4",
+										"urlTrabajo": "https://example.com/catalogos"
+									},
+									{
+										"tituloOEmpresa": "Ficha de Seguimiento",
+										"inicio": "2022",
+										"final": "2023",
+										"descripcion": "Desarrollo de una herramienta para la gestión académica de estudiantes, con funcionalidades de registro, actualización de datos, generación de reportes en PDF y comandos para facilitar la administración educativa.",
+										"puesto": "Desarrollador de Soluciones Educativas",
+										"imagen": "seguimiento.jpg",
+										"video": "seguimiento.mp4",
+										"urlTrabajo": "https://example.com/seguimiento"
+									}
+								]
+							}
+							
           ]
       },
     "distribuidoras":{
