@@ -76,7 +76,6 @@ const EquipoSection = ({ data }) => {
             const isExpanded = expanded[index] || isDesktop;
             const shouldShowButton =
               proyecto.descripcion.length > MAX_CHARACTERS && !isDesktop;
-
             return (
               <article
                 className="flex flex-col items-center w-[450px] box-border text-center bg-[#ffffffe9] rounded-md shadow-md px-4 pt-2 pb-4 m-2 hover:shadow-lg hover:bg-[#f0f0f0f2]"
@@ -104,7 +103,7 @@ const EquipoSection = ({ data }) => {
                 <p className="lg:flex-grow lg:flex-shrink lg:basis-[46%] lg:overflow-visible lg:whitespace-normal lg:block">
                   {isExpanded
                     ? proyecto.descripcion
-                    : `${proyecto.descripcion.substring(0, MAX_CHARACTERS)}...`}
+                    : `${proyecto.descripcion.substring(0, MAX_CHARACTERS)}${shouldShowButton ? "..." : ""}`}
                 </p>
                 <div className="cajaDeBotones">
                   {shouldShowButton && (
