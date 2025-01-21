@@ -287,17 +287,17 @@
 										"urlTrabajo": ""
 									},
 									{
-										"tituloOEmpresa": "VILLA MADERO",
+										"tituloOEmpresa": "Axum sistemas",
 										"inicio": "2017",
 										"final": "2020",
 										"descripcion": "Desarrollo y evaluación de clientes, planificación comercial, supervisor de productos, manejo de equipos comerciales, procesos de calidad.",
 										"puesto": "Project Manager",
 										"imagen": "../willian/villaMadero.jpg",
 										"video": "",
-										"urlTrabajo": ""
+										"urlTrabajo": "https://sms.axumvm.com.ar/new/sections/"
 									},
 									{
-										"tituloOEmpresa": "AXUM SISTEMAS",
+										"tituloOEmpresa": "Ducati Ecuador",
 										"inicio": "2009",
 										"final": "2015",
 										"descripcion": "Desarrollar, implementar y supervisar las estrategias de la marca, organización de eventos, lanzamientos de nuevos modelos, paseos club rider Ducati.",
@@ -362,43 +362,43 @@
 								"experiencia": [
 									{
 										"tituloOEmpresa": "Control de expensas para consorcio de monobloques",
-										"inicio": "2019",
-										"final": "2023",
+										"inicio": "",
+										"final": "",
 										"descripcion": "Ejecución de pruebas funcionales y automatizadas. Desarrollo de herramientas para gestión de datos personalizados, visualización gráfica y generación de reportes exportables en PDF, optimizando procesos de análisis.",
 										"puesto": "Community Manager",
 										"imagen": "../jorge/reporteConsorcio.png",
 										"video": "",
-										"urlTrabajo": ""
+										"urlTrabajo": "https://docs.google.com/spreadsheets/d/1BdWjH-HX2J_qc4pJzqy-qbzRDjhFmVboOCubMBRe0rk/edit?gid=435010463#gid=435010463"
 									},
 									{
 										"tituloOEmpresa": "Proyecto Presupuestos",
-										"inicio": "2021",
-										"final": "2022",
+										"inicio": "",
+										"final": "",
 										"descripcion": "Creación de un sistema eficiente para generar presupuestos, con funcionalidades como tablas dinámicas, selección de productos, integración de listas de precios y exportación de presupuestos en PDF.",
 										"puesto": "Desarrollador de Sistemas",
 										"imagen": "../jorge/presupuesto.png",
 										"video": "",
-										"urlTrabajo": ""
+										"urlTrabajo": "https://docs.google.com/spreadsheets/d/1QYpbdP5Ju6sF1NeT-7N0USrF62t8mVeUV9TxvyLLf84/edit?gid=0#gid=0"
 									},
 									{
 										"tituloOEmpresa": "Generador de Catálogos",
-										"inicio": "2020",
-										"final": "2021",
+										"inicio": "",
+										"final": "",
 										"descripcion": "Diseño de un sistema profesional de generación de catálogos basado en la integración de datos de archivos existentes, validación de códigos e imágenes, y generación de catálogos en formato PDF.",
 										"puesto": "Analista de Sistemas",
 										"imagen": "../jorge/catalogo.png",
 										"video": "",
-										"urlTrabajo": ""
+										"urlTrabajo": "https://docs.google.com/spreadsheets/d/1c_Qrwg3stelUQ4v50QDEZ0eNluIubEdi_Ak55c3L-to/edit"
 									},
 									{
 										"tituloOEmpresa": "Ficha de Seguimiento",
-										"inicio": "2022",
-										"final": "2023",
+										"inicio": "",
+										"final": "",
 										"descripcion": "Desarrollo de una herramienta para la gestión académica de estudiantes, con funcionalidades de registro, actualización de datos, generación de reportes en PDF y comandos para facilitar la administración educativa.",
 										"puesto": "Desarrollador de Soluciones Educativas",
 										"imagen": "../jorge/educativo.png",
 										"video": "",
-										"urlTrabajo": ""
+										"urlTrabajo": "https://docs.google.com/spreadsheets/d/1t6NUW_XAuBauDiApbj3CgNyACyFs4wC6DBwPrCJeQN4/edit?usp=sharing"
 									}
 								]
 							}
