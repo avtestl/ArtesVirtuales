@@ -6,7 +6,13 @@ export default {
 			colors: {
 				"main": "#D1E0EB",
 				"dark-text": "#2F2E41"
-			}
+			},
+			width: {
+				'28': '15rem', // Cambia el valor de w-28
+			  },
+			  height: {
+				'28': '15rem', // Cambia el valor de h-28
+			  },
 		},
 	},
 	plugins: [],

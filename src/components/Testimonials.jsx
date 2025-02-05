@@ -1,34 +1,44 @@
-export function TestimonialItem({ testimonial }){
-  
+export function TestimonialItem({ testimonial }) {
   return (
-    // eslint-disable-next-line tailwindcss/no-contradicting-classname
-    <div className="min-h-36 max-w-[328px] bg-gradient-to-l from-[#5381ad80] from-35% to-[#22354780] to-75% p-px">
-        <div className="flex min-h-36 flex-col gap-2 bg-[#D1E0EB] p-6">
-          <header className="flex items-center gap-3">
-            <img src={testimonial.imagenPersona} alt={testimonial.nombreCompleto} width={48} className="aspect-square size-12 rounded-full" />
-            <div>
-              <p className="text-base font-semibold text-[#01123F]">{testimonial.nombreCompleto}</p>
-              <p className="text-xs font-extralight text-dark-text">{testimonial.fecha}</p>
-            </div>
-          </header>
-          <p className="text-xs text-dark-text">{testimonial.testimonio}</p>
-        </div>
+    <div className="min-h-40 w-[90%] md:w-auto max-w-[350px] bg-[#D1E0EB] p-2 rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 mx-auto">
+      <div className="flex min-h-40 flex-col gap-3 p-6 items-center text-center">
+        <header>
+          <p className="text-lg font-semibold text-[#01123F] mb-2">{testimonial.nombreCompleto}</p>
+          <img
+            src={testimonial.imagenPersona}
+            alt={testimonial.nombreCompleto}
+            className="w-28 h-28 rounded-full border-4 border-white shadow-md object-cover"
+          />
+          <p className="text-sm font-light text-gray-600 mt-2">{testimonial.fecha}</p>
+        </header>
+        <p className="text-sm text-gray-700">{testimonial.testimonio}</p>
+
+        {/* Botón solo si hay URL */}
+        {testimonial.urltrabajo && (
+          <a
+            href={testimonial.urltrabajo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#FF329F] text-white px-4 py-2 rounded-lg text-sm font-semibold mt-2"
+          >
+            Ver
+          </a>
+        )}
+      </div>
     </div>
-  )
+  );
 }
 
-export default function Testimonials({ title, testimonials }){
-
-
+export default function Testimonials({ title, testimonials }) {
   return (
-    <section className="flex flex-col items-center mt-32" id="testimonios">
-      <h3 className="mb-16 text-center text-4xl font-semibold tracking-wide text-dark-text">{title}</h3>
-      
-      <div className="flex flex-wrap justify-center gap-12">
-        {testimonials.map(testimonial => (
-            <TestimonialItem key={testimonial.nombreCompleto} testimonial={testimonial} />
+    <section className="flex flex-col items-center mt-16 w-full px-4" id="testimonios">
+      <h3 className="mb-12 text-center text-4xl font-semibold tracking-wide text-[#01123F]">{title}</h3>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 justify-items-center w-full max-w-6xl">
+        {testimonials.map((testimonial, index) => (
+          <TestimonialItem key={index} testimonial={testimonial} />
         ))}
       </div>
     </section>
-  )
+  );
 }

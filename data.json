@@ -31,40 +31,50 @@
         ]
     },
     "testimonios":{
-        "titulo":"Ultimos Trabajos",
+        "titulo":"Testimonios",
         "testimonios":[
-            {
-                "nombreCompleto": "Artes Virtuales",
-                "testimonio":"“Gracias a ARTES VIRTUALES nuestro Desarrollo de Pagina web para nuestra consultora, fue creada junto a los programadores del equipo. La tecnologias usadas fueron astro con tailwind,css.“",
-                "fecha": "01/01/2025",
-                "imagenPersona":"/dani/artesVirtuales.png"
-            },
-            {
-              "nombreCompleto": "jbindustrialgroup",
-              "testimonio":"“Gracias a ARTES VIRTUALES nuestra presencia en línea ha crecido exponencialmente. Su equipo es increíblemente profesional y siempre están dispuestos a ayudar. “",
-              "fecha": "12/03/2024",
-              "imagenPersona":"/mauricio/fotoDeTrabajoJB.png"
-            },
-					  {
-							"nombreCompleto": "Axum sistemas",
-							"testimonio":"“ Gracias a ARTES VIRTULES al Desarrollo y evaluación de clientes, planificación comercial, supervisor de productos, manejo de equipos comerciales, procesos de calidad.“",
-							"fecha": "10/03/2020",
-							"imagenPersona":"../willian/axum.png"
-				   },
-					 {
-						"nombreCompleto": "Ficha de Seguimiento",
-						"testimonio":"“ Gracias a ARTES VIRTULES contamos de una herramienta para la gestión académica de estudiantes, con funcionalidades de registro, actualización de datos, generación de reportes en PDF y comandos para facilitar la administración educativa.“",
-						"fecha": "07/06/2022",
-						"imagenPersona":"../jorge/educativo.png"
-				 	},
 					{
-						"nombreCompleto": "Diseño de página e-commerce para 'Orion CTZ'",
-						"testimonio":"“ Gracias a ARTES VIRTULES el diseño de nuestra página e-commerce enfocada en la presentación profesional de productos, con navegación clara, un hero principal destacado y una cuadrícula interactiva que muestra los productos con detalles en un modal. Vemos que mejoró la usabilidad del sitio web y aumentó la interacción de los usuarios.“",
+						"nombreCompleto": "Artes Virtuales",
+						"testimonio": "Gracias a nuestro equipo en ARTES VIRTUALES, logramos desarrollar la página web de manera eficiente y profesional. Brindamos un soporte excepcional e implementamos tecnologías modernas como Astro y Tailwind CSS para garantizar el éxito del proyecto.",
+						"fecha": "01/01/2025",
+						"imagenPersona": "/dani/artesVirtuales.png",
+						"urltrabajo": "https://www.artesvirtualesgroup.com/"
+					},
+					{
+						"nombreCompleto": "jbindustrialgroup",
+						"testimonio": "Desde que trabajamos con ARTES VIRTUALES, nuestra presencia en línea ha crecido exponencialmente. Son un equipo altamente profesional y siempre están dispuestos a colaborar.",
+						"fecha": "12/03/2024",
+						"imagenPersona": "/mauricio/fotoDeTrabajoJB.png",
+						"urltrabajo": "https://www.jbindustrialgroup.com/"
+					},
+					{
+						"nombreCompleto": "Ducati Ecuador",
+						"testimonio": "ARTES VIRTUALES nos ayudó con el Desarrollo, implementacion y supervisacion de las estrategias de la marca, organización de eventos, lanzamientos de nuevos modelos, paseos club rider Ducati.",
+						"fecha": "10/03/2009",
+						"imagenPersona": "../willian/ducati.png",
+						"urltrabajo": "https://www.ducati.com/es/es/dealers/quito/motopowerpro-quito"
+					},
+					{
+						"nombreCompleto": "Ficha de Seguimiento",
+						"testimonio": "Desarrollamos junto a ARTES VIRTUALES una herramienta académica integral para la gestión de estudiantes, con funcionalidades de registro, reportes en PDF y automatización de procesos educativos.",
+						"fecha": "",
+						"imagenPersona": "../jorge/educativo.png",
+						"urltrabajo": "https://docs.google.com/spreadsheets/d/1t6NUW_XAuBauDiApbj3CgNyACyFs4wC6DBwPrCJeQN4/edit?usp=sharing"
+					},
+					{
+						"nombreCompleto": "'Orion CTZ'",
+						"testimonio": "Gracias a ARTES VIRTUALES, nuestra tienda en línea mejoró significativamente en presentación y navegación, brindando una experiencia más intuitiva y atractiva para nuestros clientes.",
 						"fecha": "01/12/2023",
-						"imagenPersona":"../dario/orion.png"
-				 	}
-					 
-
+						"imagenPersona": "../dario/orion.png",
+						"urltrabajo": "https://orionctz.com/"
+					},
+					{
+						"nombreCompleto": "Mifinka",
+						"testimonio": "Gracias a ARTES VIRTUALES, desarrollamos de forma independiente un CRM personalizado para Mifinka, adaptado a sus empresas colaboradoras. Diseñamos y desarrollamos el backend y frontend, priorizando una interfaz intuitiva y una experiencia eficiente. Implementamos gestión de clientes, seguimiento de ventas e informes, con tecnologías modernas para seguridad y rendimiento óptimo. Además, garantizamos compatibilidad multiplataforma para acceso desde cualquier dispositivo.",
+						"fecha": "01-03-2024",
+						"imagenPersona": "../dani/Mifinka.png",
+						"urltrabajo": ""
+					}
         ]
     },
       "nuestroEquipo": {
