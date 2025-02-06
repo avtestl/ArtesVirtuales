@@ -486,5 +486,11 @@
       "email": "",
       "whatsapp": "https://api.whatsapp.com/send?phone=5491127626307",
       "linkedIn": ""
-    }
+    },
+		"franquicias":{
+			"titulo": "Franquicias",
+			"franquicias":[
+				{ "nombre": "Colombia", "codigo": "CO", "link": "https://artesvirtualesgroup.co" }
+			]
+		}
 }
