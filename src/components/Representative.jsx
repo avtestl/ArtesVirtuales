@@ -10,7 +10,7 @@ export default function Representante({dataRepresentative}) {
 							<img
 								src={dataRepresentative.imagen} 
 								alt={dataRepresentative.nombre}
-								className="rounded-2xl md:w-full md:h-[400px] object-cover"
+								className="rounded-2xl w-full object-cover"
 							/>
 						</div>
 					<div className="" >
