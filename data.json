@@ -490,7 +490,7 @@
 		"franquicias":{
 			"titulo": "Franquicias",
 			"franquicias":[
-				{ "nombre": "Argentina", "codigo": "AR", "link": "https://artesvirtualesgroup.co" }
+				{ "nombre": "Argentina", "codigo": "AR", "link": "https://artesvirtualesgroup.com" }
 			]
 		},
 		"representante":{
