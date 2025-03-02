@@ -1,0 +1,36 @@
+name: Generate a build and push to another branch
+
+on:
+  push:
+    branches:
+      - master # La rama en la que realizas los nuevos cambios
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and Push
+    steps:
+      # 1. Checkout del repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Instalación de dependencias
+      - name: Install dependencies
+        run: npm install
+
+      # 3. Build del proyecto
+      - name: Build project
+        run: npm run build # Ajusta este comando según el build de tu proyecto
+
+      # 4. Persistir la carpeta dist y hacer push
+      - name: Push built files to another branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch
+          git checkout Colombia # Cambia por la rama donde quieres hacer el push
+          git add .
+          git commit -m "Build: ${{ github.sha }}"
+          git push origin Colombia
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
