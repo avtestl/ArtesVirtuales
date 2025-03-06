@@ -11,13 +11,13 @@
             {
                 "titulo":"Estrategia de Marketing Digital",
                 "descripcion": "Diseñamos planes estratégicos que alinean tus objetivos comerciales con las mejores prácticas del marketing digital.",
-                "imagen":"/imageService.svg"
-            },
-            {
-                "titulo":"Seo y Sem",
-                "descripcion": "Mejoramos tu visibilidad en los motores de búsqueda para atraer más tráfico cualificado a tu sitio web.",
                 "imagen":"/imageTwoService.svg"
             },
+						{
+							"titulo":"Desarrollo a medida",
+							"descripcion": "Creamos soluciones de software personalizadas que se adaptan a las necesidades específicas de tu negocio, garantizando eficiencia y escalabilidad.",
+							"imagen":"/imageService.svg"
+						},
             {
                 "titulo":"Gestion de Redes Sociales",
                 "descripcion": "Creamos y gestionamos contenido atractivo que conecta con tu audiencia y fortalece tu marca.",
