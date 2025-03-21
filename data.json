@@ -1,6 +1,34 @@
 {
+		"linksPagina":[
+			{
+				"nombrePagina": "Inicio",
+				"urlPagina": "/#inicio"
+			},
+			{
+				"nombrePagina": "Servicios",
+				"urlPagina": "/#nuestrosServicios"
+			},
+			{
+				"nombrePagina":"Propuesta",
+				"urlPagina":"/#propuesta"
+			},
+			{
+				"nombrePagina": "Testimonios",
+				"urlPagina": "/#testimonios"
+			},
+			{
+				"nombrePagina": "Equipo",
+				"urlPagina": "/#nuestroEquipo"
+			},
+			{
+				"nombrePagina":"Academia",
+				"urlPagina":"/academia",
+				"background":"#2980b9",
+				"color":"#fff"
+			}
+		],
     "header":{
-        "imagenLogo": "/logo.png"
+      "imagenLogo": "/logo.png"
     },
     "footer":{
         "imagenLogo": "/logo.png"

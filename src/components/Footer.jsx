@@ -1,23 +1,17 @@
-const navbarItems = [
-  "Inicio",
-  "Servicios",
-  "Propuesta",
-  "Testimonios",
-  "Equipo"
-];
 
-const Footer = ({redesSociales}) => {
+
+const Footer = ({redesSociales, dataNav}) => {
     return (
         <footer className="bg-black text-white py-8 px-6">
             <div className="text-center">
                 <h3 className="text-lg font-medium mb-6">Mapa del sitio</h3>
                 <div className="flex justify-center flex-wrap font-light gap-5">
-                    {navbarItems.map((item, i) => (
+                    {dataNav.map(({nombrePagina, urlPagina}, i) => (
                         <div>
-                            <a href={ '/#' + item.toLocaleLowerCase() } className=" font-normal mr-5 hover:underline">
-                                {item}
+                            <a href={urlPagina} className=" font-normal mr-5 hover:underline">
+                                {nombrePagina}
                             </a>
-                            {(i + 1) < navbarItems.length && <span>|</span> }
+                            {(i + 1) < dataNav.length && <span>|</span> }
                         </div>
                     ))}
                 </div>
