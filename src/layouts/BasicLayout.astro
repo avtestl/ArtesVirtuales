@@ -21,9 +21,9 @@ const { title, description } = Astro.props
     <ViewTransitions />
 	</head>
 	<body >
-    <Header client:idle dataHeader={data.header} /> 
+    <Header client:idle dataHeader={data.header} dataNav={data.linksPagina} /> 
     <slot />
-    <Footer redesSociales={data.redesSociales} />
+    <Footer redesSociales={data.redesSociales} dataNav={data.linksPagina} />
     <WhatsappBUtton whatsapp={data.redesSociales.whatsapp} />
 	</body>
 </html>

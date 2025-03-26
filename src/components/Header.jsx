@@ -1,19 +1,28 @@
 import { useState } from 'react';
 
-const Header = ({ dataHeader }) => {
+const Header = ({ dataHeader, dataNav }) => {
 	const [isNavOpen, setIsNavOpen] = useState(false);
 
 	const toggleNav = () => {
 		setIsNavOpen(!isNavOpen);
 	};
 
-	const itemsNavbar = [
-		<a href="/#inicio" key='1' className="hover:underline text-2xl ">Inicio</a>,
-		<a href="/#servicios" key='2' className="hover:underline text-2xl">Servicios</a>,
-		<a href="/#propuesta" key='3' className="hover:underline text-2xl">Propuesta</a>,
-		<a href="/#testimonios" key='4' className="hover:underline text-2xl">Testimonios</a>,
-		<a href="/#equipo" key='5' className="hover:underline text-2xl">Equipo</a>,
-	]
+	const itemsNavbar = dataNav.map(({nombrePagina, urlPagina, background, color, display}) => {
+		if(display == 'none') return
+		return <a 
+			href={urlPagina} 
+			key={nombrePagina} 
+			className={'hover:underline text-lg flex items-center'}
+			style={{
+				backgroundColor: background,
+				color: color,
+				borderRadius: background ? '5px' : '',
+				padding: background ? '5px 10px' : '',
+			}}
+			>
+				{nombrePagina}
+			</a>
+	})
 
 	return (
 		<header className="fixed top-0 left-0 w-full bg-main shadow-md z-50 h-[85px]">
