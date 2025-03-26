@@ -1,0 +1,31 @@
+---
+import BasicLayout from "@/layouts/BasicLayout.astro"
+import data from '@data'
+---
+
+
+
+<BasicLayout>
+	<main class=" bg-white py-12 px-4 mt-[80px]">
+		{data.academias && data.academias.map((academy) => 
+			<div class="mb-36 mx-auto text-center">
+				<h1 class={` text-6xl font-bold mb-2`} style={`color:${academy.colorNombre}`}>{academy.nombre}</h1>
+				<a href={academy.url} class="text-[#0088ff] text-xl mb-16 block hover:underline" target="_blank">
+					{academy.url}
+				</a>
+	
+				<div class="flex flex-wrap justify-center gap-12">
+					{academy.cursos && academy.cursos.map((course) => 
+						<div class="flex flex-col items-center">
+							<a  href={course.url} class="w-48 h-48 bg-gray-100 rounded-3xl shadow-lg flex items-center justify-center" target="_blank">
+								<img src={course.imagen} alt={course.imagen} class="w-32 h-32" >
+							</a>
+							<a href={course.url} class="text-[#0088ff] text-xl mt-4 block hover:underline w-[250px] text-center" target="_blank">{course.texto}</a>
+						</div>
+					)}
+					
+				</div>
+			</div>
+		)}
+	</main>
+</BasicLayout>

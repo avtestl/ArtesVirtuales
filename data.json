@@ -24,7 +24,8 @@
 				"nombrePagina":"Academia",
 				"urlPagina":"/academia",
 				"background":"#2980b9",
-				"color":"#fff"
+				"color":"#fff",
+				"display":"none"
 			}
 		],
     "header":{
@@ -520,5 +521,61 @@
 			"franquicias":[
 				{ "nombre": "Colombia", "codigo": "CO", "link": "https://artesvirtualesgroup.co" }
 			]
-		}
+		},
+		"academias":[
+			{
+				"nombre": "Store Sys",
+				"colorNombre": "#1786C8",
+				"url":"https://storesys.com.ar",
+				"cursos":[
+					{
+						"imagen":"/academia/pdf.png",
+						"url":"",
+						"texto":"Curso uno sobre x tema 1"
+					},
+					{
+						"imagen":"/academia/pdf.png",
+						"url":"",
+						"texto":"Curso uno sobre x tema 2"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"",
+						"texto":"Curso uno sobre x tema 3"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"",
+						"texto":"Curso uno sobre x tema 4"
+					}
+				]
+			},
+			{
+				"nombre": "Handy",
+				"colorNombre": "#00AAC5",
+				"url":"https://www.handy.la",
+				"cursos":[
+					{
+						"imagen":"/academia/pdf.png",
+						"url":"",
+						"texto":"Curso uno sobre x tema 1"
+					},
+					{
+						"imagen":"/academia/pdf.png",
+						"url":"",
+						"texto":"Curso uno sobre x tema 2"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"",
+						"texto":"Curso uno sobre x tema 3"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"",
+						"texto":"Curso uno sobre x tema 4"
+					}
+				]
+			}
+		]
 }

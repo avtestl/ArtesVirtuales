@@ -7,7 +7,8 @@ const Header = ({ dataHeader, dataNav }) => {
 		setIsNavOpen(!isNavOpen);
 	};
 
-	const itemsNavbar = dataNav.map(({nombrePagina, urlPagina, background, color}) => {
+	const itemsNavbar = dataNav.map(({nombrePagina, urlPagina, background, color, display}) => {
+		if(display == 'none') return
 		return <a 
 			href={urlPagina} 
 			key={nombrePagina} 
