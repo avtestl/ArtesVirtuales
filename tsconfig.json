@@ -6,6 +6,7 @@
     "baseUrl": ".",
     "paths": {
       "@data": ["data.json"],
+			"@franchises": ["franchises.json"],
       "@/*": ["src/*"]
     }
   }
