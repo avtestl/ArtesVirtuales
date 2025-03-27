@@ -1,0 +1,34 @@
+name: Generate a build and deploy to Hostinger
+
+on:
+  push:
+    branches:
+      - Colombia  # La rama en la que detecta cambios
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and Deploy
+    steps:
+      # 1. Checkout del repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Instalar dependencias
+      - name: Install dependencies
+        run: npm install
+
+      # 3. Construir el proyecto
+      - name: Build project
+        run: npm run build # Ajusta este comando según tu build
+
+      # 4. Configurar la clave SSH desde Secrets
+      - name: Push built files to another branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch
+          git checkout ${{ github.ref_name }} # Cambia por la rama donde quieres hacer el push
+          git add .
+          git commit -m "Build: ${{ github.sha }}"
+          git push origin ${{ github.ref_name }}
