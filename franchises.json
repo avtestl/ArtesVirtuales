@@ -2,14 +2,15 @@
 	"franquicias":{
 		"titulo": "Franquicias",
 		"franquicias":[
-			{ "nombre": "Argentina", "codigo": "AR", "link": "https://artesvirtualesgroup.com" }
+			{ "nombre": "Argentina", "codigo": "AR", "link": "https://artesvirtualesgroup.com" },
+			{ "nombre": "Colombia", "codigo" : "CO", "link": "https://artesvirtualesgroup.co"}
 		]
 	},
 	"representante":{
-		"titulo": "Representante de <span style='color:#EEFF00' >Co</span><span style='color:#114CFF' >lom</span><span style='color:#E83E3E' >bia</span>",
-		"nombre": "Norbey Pinzon Ibañez",
+		"titulo": "Representante de <span style='color:#EEFF00' >Co</span><span style='color:#114CFF' >lom</span><span style='color:#E83E3E' >bia <span style='color:#fff' >Barranquilla</span></span>",
+		"nombre": "Alejandro Mantilla",
 		"imagen":"/norbey.jpg",
-		"descripcion":"Experiencia en apertura de nuevos negocios, venta consultiva y gestión comercial de productos y servicios financieros en diversos sectores, gestión de clientes, segmentación del mercado, Negociaciones B2B y B2C. Manejo de equipos de trabajo orientados a la consecución de objetivos comerciales retadores. Amplios conocimientos en la preparación, ejecución y control de la gestión comercial de una organización. Con habilidades en liderazgo, alta orientación al cumplimiento de metas y resultados, trabajo en equipo y alto servicio al cliente. Capacidad de tomar decisiones en forma estratégica, correcta y en momentos oportunos.",
+		"descripcion":" Mi nombre es Alejandro Mantilla Arango, consultor comercial en el rubro de los repuestos para motocicletas, multimarca. 27 años de experiencia me permiten guiarte por el mundo de los repuestos para motocicletas. Actualmente, represento un importador de repuestos para motocicletas ubicado en Barranquilla. Estamos posicionados a nivel nacional. Mi área de acción son los departamentos del Atlántico, Magdalena, Cesar y Guajira. Si tienes tu negocio de repuestos para motocicletas y necesitas un proveedor que te suministre repuestos de alta calidad, respaldo, garantía y deseas honestidad y cumplimiento, estoy a tus servicios. Más que vender un producto te ofrezco mi experiencia para guiar tu negocio a otro nive",
 		"fondo":"/wallpaperRepresentant.png",
 		"fondoDesk":"/wallpaperRepresentantDesk.jpg",
 		"linkedin":"https://www.linkedin.com/in/tu-perfil"
