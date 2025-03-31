@@ -70,8 +70,8 @@ const EquipoSection = ({ data }) => {
 
       {/* Proyectos Section */}
       <section className="proyectos text-center mb-12 lg:m-4">
-        <h2 className="text-3xl text-[#006e9f] mb-16 mt-24 lg:text-5xl">Trabajos/Proyectos</h2>
-        <div className="flex flex-wrap justify-center items-start m-auto lg:justify-center lg:gap-[30px]">
+        <h2 className="text-3xl text-[#495b63] mb-16 mt-24 lg:text-5xl">Trabajos/Proyectos</h2>
+        <div className="flex flex-wrap justify-center items-start m-auto lg:justify-center lg:gap-[30px] ">
           {experiencia?.map((proyecto, index) => {
             const isExpanded = expanded[index] || isDesktop;
             const shouldShowButton =
