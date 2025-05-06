@@ -15,7 +15,7 @@ export default function Representante({dataRepresentative}) {
 							{dataRepresentative.descripcion}
 						</p>
 						<div className="flex justify-center">
-							<a href={dataRepresentative.linkedin} target="_blank" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block mt-4">
+							<a href={dataRepresentative.sitioWeb} target="_blank" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block mt-4">
 								Sitio Web
 							</a>
 						</div>
