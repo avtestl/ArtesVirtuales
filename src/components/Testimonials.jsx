@@ -38,6 +38,7 @@ export default function Testimonials({ title, testimonials }) {
         {testimonials.map((testimonial, index) => (
           <TestimonialItem key={index} testimonial={testimonial} />
         ))}
+
       </div>
     </section>
   );
