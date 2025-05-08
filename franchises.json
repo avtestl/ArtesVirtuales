@@ -13,5 +13,6 @@
 		"fondo":"/wallpaperRepresentant.png",
 		"fondoDesk":"/wallpaperRepresentantDesk.jpg",
 		"linkedin":"https://www.linkedin.com/in/tu-perfil"
-	}
+	},
+	"whatsapp":"https://api.whatsapp.com/send?phone=573114606545"
 }
