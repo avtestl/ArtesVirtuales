@@ -96,8 +96,8 @@ const EquipoSection = ({ data }) => {
                 )}
                 <h3 className="text-xl text-[#006e9f] mb-2">{proyecto.tituloOEmpresa}</h3>
                 <p className="text-[#555] text-base mb-2">
-                  <strong>Inicio:</strong> {proyecto.inicio} <br />
-                  <strong>Final:</strong> {proyecto.final}
+                  {proyecto.inicio && (<><strong>Inicio:</strong> <>{proyecto.inicio}</><br /></> ) }
+									{proyecto.final && (<><strong>Final:</strong> <>{proyecto.final}</></> ) }
                 </p>
                 <h4 className="font-semibold mb-4">{proyecto.puesto}</h4>
                 <p className="lg:flex-grow lg:flex-shrink lg:basis-[46%] lg:overflow-visible lg:whitespace-normal lg:block">
@@ -121,6 +121,17 @@ const EquipoSection = ({ data }) => {
                         Ver Proyecto
                       </a>
                     </button>
+                  )}
+									{proyecto.linksVarios && (
+                    <div className="flex flex-wrap justify-center my-6 gap-5" >
+											{proyecto.linksVarios.map((link, i) => (
+												<a href={link.url} className=" text-[#111] border-none px-4 py-2 rounded-xl cursor-pointer text-base shadow-md flex gap-3 h-[40px] transition-all hover:scale-105" key={i}>
+													<img src={link.icono} alt="" className="w-[24px] h-[24px] " />
+													<p className="text-[#006e9f] h-auto" >{link.nombre}</p>
+                    		</a>
+											))}
+											
+										</div>
                   )}
                 </div>
               </article>
