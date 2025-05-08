@@ -107,7 +107,7 @@
         ]
     },
       "nuestroEquipo": {
-          "titulo": "Nuestro Equipo",
+          "titulo":"Nuestro Equipo",
           "equipo": [
               {
                   "nombreCompleto": "Daniel Gabriel Campos",
