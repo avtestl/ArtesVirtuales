@@ -384,7 +384,7 @@
 								]
 							},
               {
-								"nombreCompleto": "Dario Manzilla",
+								"nombreCompleto": "Dario Mansilla",
 								"nombreUrl": "Dario-Manzilla",
 								"tituloPuesto": "UI/UX Designer",
 								"videoPresentacion": "",
@@ -464,6 +464,69 @@
 										"imagen": "../jorge/educativo.png",
 										"video": "",
 										"urlTrabajo": "https://docs.google.com/spreadsheets/d/1t6NUW_XAuBauDiApbj3CgNyACyFs4wC6DBwPrCJeQN4/edit?usp=sharing"
+									}
+								]
+							},
+							{
+								"nombreCompleto": "Chiara Antonella Rizzo",
+								"nombreUrl": "chiara-antonella-rizzo",
+								"tituloPuesto": "Marketing y diseño",
+								"sobreMi":"Formada en marketing y diseño gráfico, con base en arquitectura y especialización en branding, he construido un perfil interdisciplinario que combina análisis, creatividad y sensibilidad estética. Mi enfoque se centra en generar experiencias significativas, funcionales y alineadas a una identidad de marca sólida, que impacte de forma relevante en el ecosistema digital. Me apasiona comprender el comportamiento del usuario, diseñar marcas con propósito y traducir ideas complejas en soluciones visuales claras y accionables. Cuento con una fuerte capacidad de organización, liderazgo y visión estratégica. Me especializo en la creación de contenido, diseño de experiencias, procesos de customer experience y posicionamiento de marca, aportando siempre una mirada empática, resolutiva y orientada al detalle. Hoy me posiciono como una profesional integral, que conecta lo visual con lo estratégico para construir proyectos con alma, estética y sentido.",
+								"videoPresentacion": "",
+								"bannerImagen": "/chiara/chiara.png",
+								"imagenPersona": "/chiara/chiara.png",
+								"portfolio": "",
+								"experiencia": [
+									{
+										"tituloOEmpresa": "Marketing y gestión de marca",
+										"inicio": "",
+										"final": "",
+										"descripcion": "Liderazgo y colaboración en múltiples proyectos de marketing, branding y comunicación en empresas como Gennera RRHH, Axum Sistemas Inteligentes y Amande Nat, integrando diseño estratégico, planificación de contenidos, identidad visual y posicionamiento digital. Desde la creación de manuales de marca, campañas publicitarias y estrategias de redes, hasta la optimización de procesos comerciales y eventos institucionales, mi enfoque siempre se ha centrado en construir marcas coherentes, funcionales y con propósito.",
+										"puesto": "Marketing y gestión de marca",
+										"imagen": "/icons8-no-image-100.png",
+										"video": "",
+										"urlTrabajo": ""
+									},
+									{
+										"tituloOEmpresa": "Diseño Gráfico y content manager",
+										"inicio": "",
+										"final": "",
+										"descripcion": "Gestión y diseño de contenido para diversos ecosistemas digitales en organizaciones como Gennera RRHH, Amande Nat, Centro GEO FCE UBA y WINN, enfocándome en la creación de piezas gráficas, estrategias de comunicación, planificación de contenidos y mantenimiento de la identidad de marca. Con una mirada integral, colaboré en la gestión de comunidades, posicionamiento en redes sociales y desarrollo visual coherente, consolidando una comunicación efectiva y alineada con los valores de cada proyecto.",
+										"puesto": "Diseñadora Gráfica",
+										"imagen": "/icons8-no-image-100.png",
+										"video": "",
+										"urlTrabajo": "",
+										"linksVarios":[
+											{
+												"nombre": "@centrogeo.uba",
+												"url": "https://www.instagram.com/centrogeo.uba/",
+												"icono":"/instagram.png"
+											},
+											{
+												"nombre": "@gennerarrhh",
+												"url": "https://www.instagram.com/gennerarrhh/",
+												"icono":"/instagram.png"
+											},
+											{
+												"nombre": "@winnlatam",
+												"url": "https://www.instagram.com/winnlatam/",
+												"icono":"/instagram.png"
+											}
+										]
+									},
+									{
+										"tituloOEmpresa": "Tutorías en educación de Marketing y Cx - CoderHouse",
+										"inicio": "",
+										"final": "",
+										"descripcion": "Tutora en 16 cursos de Marketing Digital, UX/UI, E-Commerce y Customer Experience en Coderhouse. Servicio de asistencia a estudiantes, planificación y dictado de clases de apoyo y seguimiento personalizado. Mi enfoque educativo integró diseño, comunicación y comportamiento humano para crear experiencias de aprendizaje efectivas y motivadoras.",
+										"puesto": "Tutorías personalizadas",
+										"imagen": "../chiara/coderhouse.jpg",
+										"video": "",
+										"urlTrabajo": "",
+										"imagenes": [
+											"",
+											""
+										]
 									}
 								]
 							}
