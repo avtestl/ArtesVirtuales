@@ -14,5 +14,6 @@
 		"fondo":"/wallpaperRepresentant.jpg",
 		"fondoDesk":"/wallpaperRepresentantDesk.jpg",
 		"sitioWeb":"https://alejandromantilla.co/acerca-de-nosotros/"
-	}
+	},
+	"whatsapp":"https://api.whatsapp.com/send?phone=573106636322"
 }
