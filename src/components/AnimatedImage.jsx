@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 const AnimatedImage = ({ src, alt }) => {
-
   return (
     <motion.img
       src={src}
