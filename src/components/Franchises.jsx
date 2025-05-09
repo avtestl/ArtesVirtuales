@@ -11,11 +11,16 @@ export default function Franquicias({dataFranchises}) {
             href={country.link}
             className="block p-1 border rounded-lg shadow hover:shadow-md transition"
 						target="_blank"
+						title={country.nombre}
           >
             <img
-              src={`https://flagcdn.com/w80/${country.codigo.toLowerCase()}.png`}
+              src={!country.img ? 
+								`https://flagcdn.com/w80/${country.codigo.toLowerCase()}.png`
+								:
+								country.img
+							}
               alt={country.nombre}
-              className="w-full h-auto rounded"
+              className="w-[80px] h-[50px] rounded"
             />
           </a>
         ))}
