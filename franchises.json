@@ -4,7 +4,7 @@
 		"franquicias":[
 			{ "nombre": "Argentina", "codigo": "AR", "link": "https://artesvirtualesgroup.com" },
 			{ "nombre": "Colombia", "codigo" : "CO", "link": "https://artesvirtualesgroup.co"},
-			{ "nombre": "Colombia Bogota", "codigo": "CO", "link": "https://artesvirtuales.alejandromantillaco.com", "img": "/bogota.jpg" }
+			{ "nombre": "Colombia Bogota", "codigo": "CO", "link": "https://bogota.artesvirtualesgroup.co", "img": "/bogota.jpg" }
 		]
 	},
 	"representante":{
