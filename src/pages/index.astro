@@ -7,8 +7,10 @@ import { WhyChooseUs } from "@/components/WhyChoose"
 import Services from "@/components/Services"
 import Hero from "@/components/Hero.astro"
 import Franquicias from "@/components/Franchises"
+import Representante from "@/components/Representative"
 
 import data from '@data'
+import franchises from '../../franchises.json'
 ---
 
 <BasicLayout title="Artes Virtuales" description="">
@@ -21,6 +23,7 @@ import data from '@data'
   <WhyChooseUs title={data.porqueElegirnos.titulo} reasons={data.porqueElegirnos.razones} />
   <Distributor dataDistributor={data.distribuidoras} />
 	<Franquicias  dataFranchises={data.franquicias} />
+	<Representante dataRepresentative={franchises.representante} />
   <Testimonials title={data.testimonios.titulo} testimonials={data.testimonios.testimonios} />
   <Team dataTeam={data.nuestroEquipo} client:idle />
 </BasicLayout>

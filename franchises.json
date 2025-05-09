@@ -1,0 +1,20 @@
+{
+	"franquicias":{
+		"titulo": "Franquicias",
+		"franquicias":[
+			{ "nombre": "Argentina", "codigo": "AR", "link": "https://artesvirtualesgroup.com" },
+			{ "nombre": "Colombia", "codigo": "CO", "link": "https://artesvirtualesgroup.co" },
+			{ "nombre": "Colombia Barranquilla", "codigo": "CO", "link": "https://artesvirtuales.alejandromantillaco.com", "img": "/barranquilla.jpg" }
+		]
+	},
+	"representante":{
+		"titulo": "Representante de <span style='color:#EEFF00' >Co</span><span style='color:#114CFF' >lom</span><span style='color:#E83E3E' >bia</span> Bogota",
+		"nombre": "Heiber Fernando Diaz Calderon",
+		"imagen":"/fernando.jpeg",
+		"descripcion":"profesional en mercadeo y publicidad, con habilidades en la ejecución de campañas publicitarias digitales, creación de materiales de marketing y gestión de proyectos creativos, amplio conocimiento en creación de estrategias de contenido, gestión de redes sociales y análisis de datos del mercado. siempre coloco mi empeño y mi equipo de trabajo para ayudara las marcas en su crecimiento y por ende su visibilidad en el mercado.",
+		"fondo":"/wallpaperRepresentant.png",
+		"fondoDesk":"/wallpaperRepresentantDesk.jpg",
+		"linkedin":"https://api.whatsapp.com/send?phone=573147674771"
+	},
+	"whatsapp":"https://api.whatsapp.com/send?phone=573147674771"
+}

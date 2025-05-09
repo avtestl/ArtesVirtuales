@@ -4,6 +4,7 @@ import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import WhatsappBUtton from "@/components/WhatsappButton"
 import data from "@data"
+import franchises from '../../franchises.json'
 
 import "@/styles/equipo.css"
 
@@ -24,7 +25,7 @@ const { title, description } = Astro.props
     <Header client:idle dataHeader={data.header} dataNav={data.linksPagina} /> 
     <slot />
     <Footer redesSociales={data.redesSociales} dataNav={data.linksPagina} />
-    <WhatsappBUtton whatsapp={data.redesSociales.whatsapp} />
+    <WhatsappBUtton whatsapp={franchises.whatsapp} />
 		<div id="modal-root"></div>
 	</body>
 </html>
