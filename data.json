@@ -582,7 +582,9 @@
 		"franquicias":{
 			"titulo": "Franquicias",
 			"franquicias":[
-				{ "nombre": "Colombia", "codigo": "CO", "link": "https://artesvirtualesgroup.co" }
+				{ "nombre": "Colombia", "codigo": "CO", "link": "https://artesvirtualesgroup.co" },
+				{ "nombre": "Colombia Barranquilla", "codigo": "CO", "link": "https://artesvirtuales.alejandromantillaco.com", "img": "/barranquilla.jpg" },
+				{ "nombre": "Colombia Bogota", "codigo": "CO", "link": "https://bogota.artesvirtualesgroup.co", "img": "/bogota.jpg" }
 			]
 		},
 		"academias":[
