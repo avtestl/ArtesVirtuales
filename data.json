@@ -24,8 +24,7 @@
 				"nombrePagina":"Academia",
 				"urlPagina":"/academia",
 				"background":"#2980b9",
-				"color":"#fff",
-				"display":"none"
+				"color":"#fff"
 			}
 		],
     "header":{
@@ -594,51 +593,44 @@
 				"url":"https://storesys.com.ar",
 				"cursos":[
 					{
-						"imagen":"/academia/pdf.png",
-						"url":"",
-						"texto":"Curso uno sobre x tema 1"
-					},
-					{
-						"imagen":"/academia/pdf.png",
-						"url":"",
-						"texto":"Curso uno sobre x tema 2"
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/ZO1mlyzaT2Q",
+						"texto":"StoreSys CLIENTES"
 					},
 					{
 						"imagen":"/academia/video.png",
-						"url":"",
-						"texto":"Curso uno sobre x tema 3"
+						"url":"https://youtu.be/V8X5KpymnI0",
+						"texto":"StoreSys COMPRAS"
 					},
 					{
 						"imagen":"/academia/video.png",
-						"url":"",
-						"texto":"Curso uno sobre x tema 4"
-					}
-				]
-			},
-			{
-				"nombre": "Handy",
-				"colorNombre": "#00AAC5",
-				"url":"https://www.handy.la",
-				"cursos":[
-					{
-						"imagen":"/academia/pdf.png",
-						"url":"",
-						"texto":"Curso uno sobre x tema 1"
-					},
-					{
-						"imagen":"/academia/pdf.png",
-						"url":"",
-						"texto":"Curso uno sobre x tema 2"
+						"url":"https://youtu.be/Ip_tOsRSckE",
+						"texto":"StoreSys CONTABILIDAD"
 					},
 					{
 						"imagen":"/academia/video.png",
-						"url":"",
-						"texto":"Curso uno sobre x tema 3"
+						"url":"https://youtu.be/pkoynbqt_5M",
+						"texto":"StoreSys ESTADISTICAS"
 					},
 					{
 						"imagen":"/academia/video.png",
-						"url":"",
-						"texto":"Curso uno sobre x tema 4"
+						"url":"https://youtu.be/gXRPKTNYiv0",
+						"texto":"StoreSys FACTURACION"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/Ut4inP6RyAc",
+						"texto":"StoreSys IMPUESTOS"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/nTY_bh0CCos",
+						"texto":"StoreSys LOGISTICA"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/2T5SPzn8-0U",
+						"texto":"StoreSys SUCURSALES"
 					}
 				]
 			}
