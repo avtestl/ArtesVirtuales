@@ -631,6 +631,63 @@
 						"imagen":"/academia/video.png",
 						"url":"https://youtu.be/2T5SPzn8-0U",
 						"texto":"StoreSys SUCURSALES"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/s2qercKHt4s",
+						"texto":"StoreSys   Como Cambiar un Precio determinado o Varios en Porcentaje"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/i48_dMatM-8",
+						"texto":"StoreSys   Como Cargar un Cliente y Sus Consultas"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/5oEVMfnZg24",
+						"texto":"StoreSys   Como Leer y Cerrar la Caja Diaria"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/FUo7YR1WDoU",
+						"texto":"StoreSys   Como Sacar una Lista de Precios completa o Reducida"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/IE3gVcsSHok",
+						"texto":"StoreSys   Como Crear un Presupuesto"
+					},
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtu.be/4jzDOhLfz3o",
+						"texto":"StoreSys   Como dar de Alta un Articulo Nuevo"
+					},
+					{
+						"imagen":"/academia/pdf.png",
+						"url":"/academia/Pagina_Store_Systemas_Mayoristas_y_Minoristas.docx",
+						"texto":"Pagina Store Systemas Mayoristas y Minoristas"
+					},
+					{
+						"imagen":"/academia/pdf.png",
+						"url":"/academia/Pagina_Store_Systemas_Distribuidoras.docx",
+						"texto":"Pagina Store Systemas Distribuidoras"
+					},
+					{
+						"imagen":"/academia/pdf.png",
+						"url":"/academia/Pagina_Store_Systemas.docx",
+						"texto":"Pagina Store Systemas"
+					}
+				]
+			},
+			{
+				"nombre": "Handy",
+				"colorNombre": "#00AAC5",
+				"url":"https://www.handy.la/",
+				"cursos":[
+					{
+						"imagen":"/academia/video.png",
+						"url":"https://youtube.com/playlist?list=PLnUkw_IN2jdlZcLFv1b7UARfCcqes9O57&si=z6l5Z0GXYi2Wmy5i",
+						"texto":"Academia Playlist"
 					}
 				]
 			}
