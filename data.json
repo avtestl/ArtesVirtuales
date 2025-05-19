@@ -79,28 +79,28 @@
 						"nombreCompleto": "Ducati Ecuador",
 						"testimonio": "ARTES VIRTUALES nos ayudó con el Desarrollo, implementacion y supervisacion de las estrategias de la marca, organización de eventos, lanzamientos de nuevos modelos, paseos club rider Ducati.",
 						"fecha": "10/03/2009",
-						"imagenPersona": "../willian/ducati.png",
+						"imagenPersona": "/willian/ducati.png",
 						"urltrabajo": "https://www.ducati.com/es/es/dealers/quito/motopowerpro-quito"
 					},
 					{
 						"nombreCompleto": "Ficha de Seguimiento",
 						"testimonio": "Desarrollamos junto a ARTES VIRTUALES una herramienta académica integral para la gestión de estudiantes, con funcionalidades de registro, reportes en PDF y automatización de procesos educativos.",
 						"fecha": "",
-						"imagenPersona": "../jorge/educativo.png",
+						"imagenPersona": "/jorge/educativo.png",
 						"urltrabajo": "https://docs.google.com/spreadsheets/d/1t6NUW_XAuBauDiApbj3CgNyACyFs4wC6DBwPrCJeQN4/edit?usp=sharing"
 					},
 					{
 						"nombreCompleto": "'Orion CTZ'",
 						"testimonio": "Gracias a ARTES VIRTUALES, nuestra tienda en línea mejoró significativamente en presentación y navegación, brindando una experiencia más intuitiva y atractiva para nuestros clientes.",
 						"fecha": "01/12/2023",
-						"imagenPersona": "../dario/orion.png",
+						"imagenPersona": "/dario/orion.png",
 						"urltrabajo": "https://orionctz.com/"
 					},
 					{
 						"nombreCompleto": "Mifinka",
 						"testimonio": "Gracias a ARTES VIRTUALES, desarrollamos de forma independiente un CRM personalizado para Mifinka, adaptado a sus empresas colaboradoras. Diseñamos y desarrollamos el backend y frontend, priorizando una interfaz intuitiva y una experiencia eficiente. Implementamos gestión de clientes, seguimiento de ventas e informes, con tecnologías modernas para seguridad y rendimiento óptimo. Además, garantizamos compatibilidad multiplataforma para acceso desde cualquier dispositivo.",
 						"fecha": "01-03-2024",
-						"imagenPersona": "../dani/Mifinka.png",
+						"imagenPersona": "/dani/Mifinka.png",
 						"urltrabajo": ""
 					}
         ]
@@ -245,7 +245,7 @@
 								"nombreUrl": "carlos-campos",
 								"tituloPuesto": "Full Stack Developer",
 								"videoPresentacion": "",
-								"bannerImagen": "../carlos/carlos.jpg",
+								"bannerImagen": "/carlos/carlos.jpg",
 								"imagenPersona": "/carlos/carlos.jpg",
 								"portfolio": "",
 								"experiencia": [
@@ -284,7 +284,7 @@
                 "tituloPuesto": "Project Manager",
 								"sobreMi":"Soy un desarrollador web Full Stack apasionado por la tecnología y el aprendizaje continuo. Actualmente estoy cursando la Licenciatura en Analista en Sistemas, lo que complementa mi formación técnica en desarrollo web. Como Project Manager, lidero la planificación y ejecución de proyectos, asegurando que cada iniciativa esté alineada con los objetivos comerciales y las mejores prácticas del marketing digital. Además, formo parte del equipo de desarrollo web, contribuyendo a crear soluciones innovadoras que impulsan el crecimiento de nuestros clientes. Mi objetivo es combinar estrategia y tecnología para ofrecer resultados efectivos y de alto impacto.",
                 "videoPresentacion": "",
-                "bannerImagen": "../mauricio/fotoMauricio.png",
+                "bannerImagen": "/mauricio/fotoMauricio.png",
                 "imagenPersona": "mauricio/fotoMauricio.png",
                 "portfolio": "",
                 "experiencia": [
@@ -335,10 +335,10 @@
 								"nombreUrl": "WILLIAM-PINZON",
 								"tituloPuesto": "Marketing y Comunicaciones",
 								"sobreMi": "En Artes Virtuales, me desempeño como especialista en marketing digital. Mi trabajo se enfoca en desarrollar y ejecutar estrategias innovadoras que posicionen la marca de manera efectiva en el entorno digital. A través del análisis de mercado y la creación de campañas publicitarias personalizadas, identifico las necesidades de nuestro público objetivo y aprovecho las oportunidades para fortalecer nuestra presencia online. Gestiono la identidad de la marca asegurándome de que cada proyecto refleje los valores y objetivos de Artes Virtuales. Utilizo herramientas como redes sociales, marketing de contenidos y estrategias de SEO para maximizar el alcance de nuestras iniciativas. Mi compromiso con la planificación, la organización y el trabajo en equipo me permite garantizar resultados que impacten de manera positiva en nuestra comunidad digital.",
-								"videoPresentacion": "../willian/willianVideo.mp4",
+								"videoPresentacion": "/willian/willianVideo.mp4",
 								"bannerImagen": "",
-								"imagenPersona": "willian/willian.jpeg",
-								"portfolio": "https://www.portfolio-sofia.com",
+								"imagenPersona": "/willian/willian.jpeg",
+								"portfolio": "",
 								"experiencia": [
 									{
 										"tituloOEmpresa": "THE ROXY",
@@ -346,7 +346,7 @@
 										"final": "2023",
 										"descripcion": "Desarrollo de proyectos comerciales, franquicias, desarrollo de marca, trabajo bajo objetivos, manejo y supervisión de equipos, control de calidad.",
 										"puesto": "Project Manager",
-										"imagen": "../willian/theRoxy.png",
+										"imagen": "/willian/theRoxy.png",
 										"video": "",
 										"urlTrabajo": ""
 									},
@@ -356,7 +356,7 @@
 										"final": "2020",
 										"descripcion": "Desarrollo y evaluación de clientes, planificación comercial, supervisor de productos, manejo de equipos comerciales, procesos de calidad.",
 										"puesto": "Project Manager",
-										"imagen": "../willian/axum.png",
+										"imagen": "/willian/axum.png",
 										"video": "",
 										"urlTrabajo": "https://sms.axumvm.com.ar/new/sections/"
 									},
@@ -366,7 +366,7 @@
 										"final": "2015",
 										"descripcion": "Desarrollar, implementar y supervisar las estrategias de la marca, organización de eventos, lanzamientos de nuevos modelos, paseos club rider Ducati.",
 										"puesto": "Gerente de Marketing",
-										"imagen": "../willian/ducati.png",
+										"imagen": "/willian/ducati.png",
 										"video": "",
 										"urlTrabajo": ""
 									},
@@ -376,7 +376,7 @@
 										"final": "2009",
 										"descripcion": "Visitador médico línea Ultrasonido (Ginecología).",
 										"puesto": "Visitador Médico",
-										"imagen": "../willian/generalElectric.png",
+										"imagen": "/willian/generalElectric.png",
 										"video": "",
 										"urlTrabajo": ""
 									}
@@ -387,7 +387,7 @@
 								"nombreUrl": "Dario-Manzilla",
 								"tituloPuesto": "UI/UX Designer",
 								"videoPresentacion": "",
-								"bannerImagen": "../dario/dario.png",
+								"bannerImagen": "/dario/dario.png",
 								"imagenPersona": "dario/dario.png",
 								"portfolio": "https://www.portfolio-luis.com",
 								"sobreMi": "Soy un diseñador UI/UX apasionado por crear experiencias digitales innovadoras y funcionales. Me especializo en diseñar interfaces que combinan estética, usabilidad e impacto visual. He trabajado en proyectos empresariales, comerciales y de emprendimiento propio, desarrollando soluciones prácticas para aplicaciones móviles, e-commerce y páginas web. Mi objetivo es contribuir al éxito digital de las empresas mediante diseños que inspiran confianza y generan resultados.",
@@ -398,7 +398,7 @@
 										"final": "01/12/2023",
 										"descripcion": "Diseñé una página e-commerce enfocada en la presentación profesional de productos, con navegación clara, un hero principal destacado y una cuadrícula interactiva que muestra los productos con detalles en un modal. Este proyecto mejoró la usabilidad del sitio web y aumentó la interacción de los usuarios.",
 										"puesto": "",
-										"imagen": "../dario/orion.png",
+										"imagen": "/dario/orion.png",
 										"video": "",
 										"urlTrabajo": "https://orionctz.com/"
 									},
@@ -420,7 +420,7 @@
 								"tituloPuesto": "Herramienta Google",
 								"sobreMi":"Profesional con amplia experiencia en la integración, automatización y desarrollo de sistemas basados en las herramientas de Google. Mis conocimientos abarcan desde la creación de conexiones avanzadas entre hojas de cálculo y otras aplicaciones, hasta la implementación de inteligencia artificial en procesos empresariales para optimizar tareas y mejorar la toma de decisiones.",
 								"videoPresentacion": "",
-								"bannerImagen": "../jorge/Jorge.jpeg",
+								"bannerImagen": "/jorge/Jorge.jpeg",
 								"imagenPersona": "/jorge/Jorge.jpeg",
 								"portfolio": "",
 								"experiencia": [
@@ -430,7 +430,7 @@
 										"final": "",
 										"descripcion": "Ejecución de pruebas funcionales y automatizadas. Desarrollo de herramientas para gestión de datos personalizados, visualización gráfica y generación de reportes exportables en PDF, optimizando procesos de análisis.",
 										"puesto": "Community Manager",
-										"imagen": "../jorge/reporteConsorcio.png",
+										"imagen": "/jorge/reporteConsorcio.png",
 										"video": "",
 										"urlTrabajo": "https://docs.google.com/spreadsheets/d/1BdWjH-HX2J_qc4pJzqy-qbzRDjhFmVboOCubMBRe0rk/edit?gid=435010463#gid=435010463"
 									},
@@ -440,7 +440,7 @@
 										"final": "",
 										"descripcion": "Creación de un sistema eficiente para generar presupuestos, con funcionalidades como tablas dinámicas, selección de productos, integración de listas de precios y exportación de presupuestos en PDF.",
 										"puesto": "Desarrollador de Sistemas",
-										"imagen": "../jorge/presupuesto.png",
+										"imagen": "/jorge/presupuesto.png",
 										"video": "",
 										"urlTrabajo": "https://docs.google.com/spreadsheets/d/1QYpbdP5Ju6sF1NeT-7N0USrF62t8mVeUV9TxvyLLf84/edit?gid=0#gid=0"
 									},
@@ -450,7 +450,7 @@
 										"final": "",
 										"descripcion": "Diseño de un sistema profesional de generación de catálogos basado en la integración de datos de archivos existentes, validación de códigos e imágenes, y generación de catálogos en formato PDF.",
 										"puesto": "Analista de Sistemas",
-										"imagen": "../jorge/catalogo.png",
+										"imagen": "/jorge/catalogo.png",
 										"video": "",
 										"urlTrabajo": "https://docs.google.com/spreadsheets/d/1c_Qrwg3stelUQ4v50QDEZ0eNluIubEdi_Ak55c3L-to/edit"
 									},
@@ -460,7 +460,7 @@
 										"final": "",
 										"descripcion": "Desarrollo de una herramienta para la gestión académica de estudiantes, con funcionalidades de registro, actualización de datos, generación de reportes en PDF y comandos para facilitar la administración educativa.",
 										"puesto": "Desarrollador de Soluciones Educativas",
-										"imagen": "../jorge/educativo.png",
+										"imagen": "/jorge/educativo.png",
 										"video": "",
 										"urlTrabajo": "https://docs.google.com/spreadsheets/d/1t6NUW_XAuBauDiApbj3CgNyACyFs4wC6DBwPrCJeQN4/edit?usp=sharing"
 									}
@@ -519,7 +519,7 @@
 										"final": "",
 										"descripcion": "Tutora en 16 cursos de Marketing Digital, UX/UI, E-Commerce y Customer Experience en Coderhouse. Servicio de asistencia a estudiantes, planificación y dictado de clases de apoyo y seguimiento personalizado. Mi enfoque educativo integró diseño, comunicación y comportamiento humano para crear experiencias de aprendizaje efectivas y motivadoras.",
 										"puesto": "Tutorías personalizadas",
-										"imagen": "../chiara/coderhouse.jpg",
+										"imagen": "/chiara/coderhouse.jpg",
 										"video": "",
 										"urlTrabajo": "",
 										"imagenes": [
