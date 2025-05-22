@@ -4,17 +4,40 @@
 		"franquicias":[
 			{ "nombre": "Argentina", "codigo": "AR", "link": "https://artesvirtualesgroup.com" },
 			{ "nombre": "Colombia Barranquilla", "codigo": "CO", "link": "https://artesvirtuales.alejandromantillaco.com", "img": "/barranquilla.jpg" },
-			{ "nombre": "Colombia Bogota", "codigo": "CO", "link": "https://bogota.artesvirtualesgroup.co", "img": "/bogota.jpg" }
+			{ "nombre": "Colombia Bogota", "codigo": "CO", "link": "https://bogota.artesvirtualesgroup.co", "img": "/bogota.jpg" },
+							{ "nombre": "Colombia", "codigo": "CO", "link": "https://artesvirtualesgroup.co" }
 		]
 	},
 	"representante":{
-		"titulo": "Representante de <span style='color:#EEFF00' >Co</span><span style='color:#114CFF' >lom</span><span style='color:#E83E3E' >bia</span>",
-		"nombre": "Norbey Pinzon Ibañez",
-		"imagen":"/norbey.jpg",
-		"descripcion":"Experiencia en apertura de nuevos negocios, venta consultiva y gestión comercial de productos y servicios financieros en diversos sectores, gestión de clientes, segmentación del mercado, Negociaciones B2B y B2C. Manejo de equipos de trabajo orientados a la consecución de objetivos comerciales retadores. Amplios conocimientos en la preparación, ejecución y control de la gestión comercial de una organización. Con habilidades en liderazgo, alta orientación al cumplimiento de metas y resultados, trabajo en equipo y alto servicio al cliente. Capacidad de tomar decisiones en forma estratégica, correcta y en momentos oportunos.",
+		"titulo": "Representante de <span style='color:#EEFF00' >Ec</span><span style='color:#114CFF' >ua</span><span style='color:#E83E3E' >dor</span>",
+		"nombre": "Gissela Ruiz",
+		"imagen":"/ecuadorGissela/giselaRuiz.jpg",
+		"descripcion":"Gissela Ruiz, estratega en comunicación pública y política con más de seis años de experiencia en el sector público, electoral y social. He liderado procesos de comunicación en gobiernos locales y campañas políticas exitosas en la Amazonía ecuatoriana, combinando estrategia, creatividad y enfoque territorial. Nuestra agencia nace para transformar la forma en que nos comunicamos desde lo local hacia lo nacional, integrando tecnología, innovación y visión estratégica. Ofrezco soluciones integrales en comunicación institucional, asesoría política, producción audiovisual y posicionamiento digital, orientadas a fortalecer la confianza ciudadana, el liderazgo público y el impacto social.",
 		"fondo":"/wallpaperRepresentant.png",
-		"fondoDesk":"/wallpaperRepresentantDesk.jpg",
-		"linkedin":"https://www.linkedin.com/in/tu-perfil"
+		"fondoDesk":"/ecuadorGissela/ecuador.jpg",
+		"linkedin":"https://www.linkedin.com/in/gissela-estefania-ruiz-alencastro/"
 	},
-	"whatsapp":"https://api.whatsapp.com/send?phone=573114606545"
+	"whatsapp":"https://api.whatsapp.com/send?phone=0995969376",
+	 "serviciosEcuador": [
+    {
+      "titulo": "Comunicación institucional y pública",
+      "descripcion": "Estrategias, manuales y redacción institucional para fortalecer la comunicación de gobiernos y organizaciones públicas.",
+      "imagen": "/ecuadorGissela/servicioComunicacionPublica.png"
+    },
+    {
+      "titulo": "Comunicación política",
+      "descripcion": "Estrategia electoral, branding político y gestión de crisis para campañas y líderes.",
+      "imagen": "/ecuadorGissela/comunicacionPolitica.png"
+    },
+    {
+      "titulo": "Producción audiovisual",
+      "descripcion": "Spots de campaña, videos institucionales, transmisiones en vivo y contenido para redes.",
+      "imagen": "/ecuadorGissela/servicioProduccionAudiovisual.png"
+    },
+    {
+      "titulo": "Capacitación y consultoría",
+      "descripcion": "Talleres, mentorías y asesoría en innovación pública y participación digital.",
+      "imagen": "/ecuadorGissela/servicioCapacitacion.png"
+    }
+  ]
 }

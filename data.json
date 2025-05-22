@@ -6,7 +6,7 @@
 			},
 			{
 				"nombrePagina": "Servicios",
-				"urlPagina": "/#nuestrosServicios"
+				"urlPagina": "/#Servicios"
 			},
 			{
 				"nombrePagina":"Propuesta",
@@ -18,13 +18,17 @@
 			},
 			{
 				"nombrePagina": "Equipo",
-				"urlPagina": "/#nuestroEquipo"
+				"urlPagina": "/#Equipo"
 			},
 			{
 				"nombrePagina":"Academia",
 				"urlPagina":"/academia",
 				"background":"#2980b9",
 				"color":"#fff"
+			},
+			{
+				"nombrePagina": "Contactanos",
+				"urlPagina": "/#Contactanos"
 			}
 		],
     "header":{
@@ -569,7 +573,12 @@
               "titulo": "Enfoque Personalizado",
               "descripcion": "Cada cliente es único, por lo que ofrecemos soluciones a medida que se adaptan a tus necesidades específicas.",
               "numeroImagen": 3
-            }
+            },
+						{
+							"titulo": "Innovación en Desarrollo Web",
+							"descripcion": "Diseñamos y desarrollamos sitios y aplicaciones web modernas, funcionales y seguras, alineadas con los objetivos de tu negocio.",
+							"numeroImagen": 4
+						}	
         ]
     },
     "redesSociales":{

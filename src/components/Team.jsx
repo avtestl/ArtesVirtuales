@@ -29,7 +29,7 @@ const Team = ({ dataTeam }) => {
 
 
 	return (
-		<div className="flex flex-col items-center bg-gray-50 py-8 mt-32 mb-32" id="equipo">
+		<div className="flex flex-col items-center bg-gray-50 py-8 mt-32 mb-32" id="Equipo">
 			<h2 className="text-3xl mb-10" >{dataTeam.titulo}</h2>
 			{/* Título */}
 			<h3 className="text-2xl font-bold text-gray-800 mb-6 ">

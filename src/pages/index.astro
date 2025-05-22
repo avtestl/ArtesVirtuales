@@ -11,6 +11,7 @@ import Representante from "@/components/Representative"
 
 import data from '@data'
 import franchises from '@franchises'
+import FormularioDeContacto from "@/components/form"
 ---
 
 <BasicLayout title="Artes Virtuales" description="">
@@ -19,11 +20,16 @@ import franchises from '@franchises'
     description={data.hero.descripcionDelHero}
     whatsapp={data.redesSociales.whatsapp} 
   />
-  <Services dataService={data.nuestrosServicios} />
+	<Services 
+  	dataService={data.nuestrosServicios} 
+  	serviciosEcuador={franchises.serviciosEcuador} 
+  	incluirEcuador={true}
+	/>
   <WhyChooseUs title={data.porqueElegirnos.titulo} reasons={data.porqueElegirnos.razones} />
   <Distributor dataDistributor={data.distribuidoras} />
 	<Franquicias  dataFranchises={franchises.franquicias} />
 	<Representante dataRepresentative={franchises.representante} />
   <Testimonials title={data.testimonios.titulo} testimonials={data.testimonios.testimonios} />
   <Team dataTeam={data.nuestroEquipo} client:idle />
+	<FormularioDeContacto/>
 </BasicLayout>
