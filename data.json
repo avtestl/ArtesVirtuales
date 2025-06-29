@@ -536,14 +536,14 @@
         "titulo": "Somos distribuidor autorizado LATAM",
         "distribuidoras": [
             {
-                "imagen": "/handy.png",
-                "url": "https://www.handy.la/",
-                "alt":"handy"
+							"imagen": "/danisoft.png",
+							"url": "https://danisoft.com.co/",
+							"alt":"danisoft"
             },
             {
-                "imagen": "/storeSys.png",
-                "url": "https://storesys.com.ar/",
-                "alt": "storeSys"
+							"imagen": "/pgfacture.png",
+							"url": "https://pgfacture.com/",
+							"alt": "pgfacture"
             }
         ]
     },
