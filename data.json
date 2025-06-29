@@ -21,14 +21,14 @@
 				"urlPagina": "/#Equipo"
 			},
 			{
+				"nombrePagina": "Contactanos",
+				"urlPagina": "/#Contactanos"
+			},
+			{
 				"nombrePagina":"Academia",
 				"urlPagina":"/academia",
 				"background":"#2980b9",
 				"color":"#fff"
-			},
-			{
-				"nombrePagina": "Contactanos",
-				"urlPagina": "/#Contactanos"
 			}
 		],
     "header":{

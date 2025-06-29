@@ -1,7 +1,7 @@
 
 export default function Representante({dataRepresentative}) {
   return (
-    <div className={`flex flex-col justify-center items-center my-10 relative bg-cover bg-[url(/wallpaperRepresentant.png)] md:bg-[url(/wallpaperRepresentantDesk.jpg)]`} >
+    <div className={`flex flex-col justify-center items-center my-10 relative bg-cover bg-[url(/ecuadorGissela/ecuador.jpg)]`} >
 			<div className="bg-black absolute w-full h-full z-1 opacity-60"></div>
 			<div className="z-10 mb-10">
 				<h2 className="text-3xl font-semibold text-center text-white mb-6 mt-12" dangerouslySetInnerHTML={{__html: dataRepresentative.titulo}} ></h2>
